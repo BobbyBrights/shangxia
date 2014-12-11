@@ -54,6 +54,10 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
 
         $.get('/admin/api/content/press?year=' + year + '&page=' + page , function( e ){
             var list = e.data;
+            if( !list || !list.length ){
+                cb && cb();
+                return;
+            }
             var aHtml = [];
             $.each( list , function( i , press ){
                 
