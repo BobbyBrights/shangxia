@@ -2092,7 +2092,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
             var type = State.data.type;
             var hash = State.data.hash;
             // if only change hash
-            if( State.url.indexOf('##') >= 0 ){
+            if( State.url.indexOf('##') >= 0 || State.data.needAjax === false ){
                 return false;
             }
             // hid head pop
@@ -2411,6 +2411,9 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
     });
 
     LP.action('i-want-to-buy' , function( data ){
+        var link = $(this).closest('li').find('a').attr('href');
+        History.replaceState( { prev: location.href, needAjax: false } , undefined , link  );
+
         var data = eval('(' + $(this).siblings('textarea').val() + ')');
         popHelper.show( LP.format( $('#i_want_to_buy').html() , data ) );
         $('.pop').find('.popcon').css('width','100%').css('padding',0);
