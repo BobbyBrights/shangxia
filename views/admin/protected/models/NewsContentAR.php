@@ -17,7 +17,7 @@ class NewsContentAR extends ContentAR {
   
   public function getFields() {
     $this->hasContentField("date", array("type" => "date"));
-    $this->hasContentField('tpl', array('type' => 'select', 'options' => array('1' => 'Template One', '2' => 'Template Two', '3' => 'Template Three')));
+    $this->hasContentField('tpl', array('type' => 'select', 'options' => array('2' => 'Template One', '1' => 'Template Two', '3' => 'Template Three')));
     
     $this->hasContentField('desc_two', array('type' => 'textarea'));
     $this->hasContentField('title_two');

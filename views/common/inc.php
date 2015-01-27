@@ -317,7 +317,7 @@ function loadPressWithYearGroup($yearGroup = FALSE, $limit = 15) {
 
 // 加载Press 所有的年份
 function loadPressYears() {
-  $sql = 'select distinct year(field_content) as year from field where field_name="publish_date" order by year ASC';
+  $sql = "select distinct left(field_content, 4) as year from field left join content on content.cid = field.cid where field_name='publish_date' and content.cid != '' order by year DESC";
   $query = Yii::app()->db->createCommand($sql);
   
   $rows = $query->queryAll();

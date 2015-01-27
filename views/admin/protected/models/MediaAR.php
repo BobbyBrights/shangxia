@@ -86,8 +86,8 @@ class MediaAR extends CActiveRecord {
     if (!$_POST) {
       return;
     }
-    $uri = $request->getPost($field_name);
-    if (!$uri) {
+    $uri = $request->getPost($field_name, false);
+    if ($uri === false) {
       return ;
     }
     

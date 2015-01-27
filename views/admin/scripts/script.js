@@ -172,7 +172,9 @@
         }
         else {
           element.find("input[type='file']").change(function () {
+              $(this).after('<div class="uploading">Uploading...</div>');
             UploadMediaService.upload(angular.element(this)[0]).success(function (res) {
+                $('.uploading').remove();
               if (typeof res["data"] == "undefined" || res["status"] != 0) {
                 return;
               }
@@ -188,6 +190,9 @@
         
         scope.removeItem = function (index) {
           scope.src.splice(index, 1);
+          if (typeof multi == 'undefined') {
+            ctrl[0].$setViewValue('');
+          }
         };
       },
       template: function (el, attrs) {
@@ -215,6 +220,7 @@
       require: ["ngModel"],
       link: function (scope, element, attr, ctrl) {
         element.find("input[type='file']").change(function () {
+            $(this).next().html('Uploading...');
           UploadMediaService.uploadVideo(angular.element(this)[0]).success(function (res) {
             if (res["status"] != 0) {
               alert(res["message"]);
@@ -229,7 +235,7 @@
         ctrl[0].$setViewValue(attr["value"]);
         scope.uri = attr["value"];
       },
-      template: '<input type="file"  accept="video/*" upload="Upload Video"/><span class="info">{{uri}}</span>'
+      template: '<input type="file"  accept=".mp4" upload="Upload Video"/><span class="info">{{uri}}</span>'
     };
   }]);
 
@@ -306,7 +312,8 @@
       });
     };
   });
-  
+
+
   AdminModule.controller("ContentTable", function ($scope, $modal) {
     
     var ModalInstanceCtrl = function ($scope, $modalInstance, cid) {
@@ -534,6 +541,51 @@
       var imageObj = $(".media-list img[src='"+currentImage.attr("src")+"']");
       currentImage.attr("src", $("img" ,imageObj.parents("li").next()).attr("src"));
     });
+
+      var $tpl_select = ($('select[name="tpl"]'));
+      if($tpl_select.length) {
+
+          setTimeout(function(){
+              var tpl_id = $tpl_select.val();
+              if(tpl_id == 3) {
+                  $('.controle-group').eq(2).show();
+                  $('.controle-group').eq(3).show();
+              }
+              else {
+                  $('.controle-group').eq(2).hide();
+                  $('.controle-group').eq(3).hide();
+              }
+              if(tpl_id == 1) {
+                  $('.control-group').eq(4).show();
+                  $('.control-group').eq(3).hide();
+              }
+              else {
+                  $('.control-group').eq(3).show();
+                  $('.control-group').eq(4).hide();
+              }
+          }, 2000)
+
+          $('select[name="tpl"]').live("change", function() {
+              var tpl_id = $(this).val();
+              if(tpl_id == 3) {
+                  $('.controle-group').eq(2).show();
+                  $('.controle-group').eq(3).show();
+              }
+              else {
+                  $('.controle-group').eq(2).hide();
+                  $('.controle-group').eq(3).hide();
+              }
+              if(tpl_id == 1) {
+                  $('.control-group').eq(4).show();
+                  $('.control-group').eq(3).hide();
+              }
+              else {
+                  $('.control-group').eq(3).show();
+                  $('.control-group').eq(4).hide();
+              }
+          });
+      }
+
 
   });
   

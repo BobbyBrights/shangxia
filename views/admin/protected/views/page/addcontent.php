@@ -1,4 +1,4 @@
-<div class="form-con slideshow-form" ng-controller="ContentForm" ng-init="init()">
+<div class="form-con slideshow-form form-add" ng-controller="ContentForm" ng-init="init()">
   <form name="contentform" class="form-horizontal"  method="post" redirect="<?php echo Yii::app()->createUrl("page/content", array("type" => $type))?>">
     <div class="header clearfix">
       <div class="icons">
@@ -44,7 +44,7 @@
         <input type="text" name="weight" ng-model="content.weight" />
       </div>
     </div>
-    
+
     <!-- 内容 Field / 扩展字段 -->
     <?php foreach ($model->getFields() as $field): ?>
       <div class="controle-group">
@@ -65,15 +65,15 @@
         </div>
       </div>
     <?php endforeach;?>
-    
+
     <!-- 图片 Field / 图片扩展字段 -->
     <?php foreach ($model->getImageFields()  as $field): ?>
     <?php $option = $model->getImageFieldOption($field)?>
-    <div class="control-group imagepreview <?php if ($option["multi"]) echo "multi";?>">
+    <div class="control-group imagepreview <?php if (!empty($option["multi"])) echo "multi";?>">
       <div class="control-label"><label for="<?php echo $field?>"><?php echo Yii::t("fields", ucfirst(str_replace("_", " " ,$field)))?></label></div>
       <div class="controls clearfix">
-        <ng-uploadimage  ng-model="content.<?php echo $field?>" <?php if ($option["multi"]) echo "multi";?>>
-          
+        <ng-uploadimage  ng-model="content.<?php echo $field?>" <?php if (!empty($option["multi"])) echo "multi";?>>
+
         </ng-uploadimage>
       </div>
     </div>

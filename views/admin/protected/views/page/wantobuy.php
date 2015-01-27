@@ -31,12 +31,14 @@
           <td><?php echo $item->email?></td>
           <td>
           <?php if ($item->product_type == "product"):?>
-            <a href="javascript:void(0)">
-              <img ng-click="viewimage('<?php echo MediaAR::thumbnail($product->product_slide_image[0], array("500", "auto"));?>')" src="<?php echo MediaAR::thumbnail($product->product_slide_image[0], array("500", "auto"))?>" alt="" />
+            <a target="_blank" href="<?php echo Yii::app()->createUrl('page/addcontent', array('type' => 'product', 'id' => $item->product))?>">
+              <!-- <img ng-click="viewimage('<?php echo MediaAR::thumbnail($product->product_slide_image[0], array("500", "auto"));?>')" src="<?php echo MediaAR::thumbnail($product->product_slide_image[0], array("500", "auto"))?>" alt="" /> -->
+              <img src="<?php echo MediaAR::thumbnail($product->product_slide_image[0], array("500", "auto"))?>" alt="" />
             </a>
           <?php else: ?>
-            <a href="javascript:void(0)">
-              <img ng-click="viewimage('<?php echo ($product->thumbnail)?>')" src="<?php echo ($product->thumbnail)?>" alt="" />
+            <a target="_blank" href="<?php echo Yii::app()->createUrl('page/addcontent', array('type' => 'gift', 'id' => $item->product))?>">
+              <!-- <img ng-click="viewimage('<?php echo ($product->thumbnail)?>')" src="<?php echo ($product->thumbnail)?>" alt="" /> -->
+              <img src="<?php echo ($product->thumbnail)?>" alt="" />
             </a>
          <?php endif;?>
           </td>
