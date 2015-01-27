@@ -2152,7 +2152,10 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
         });
     });
 
-    
+    // popups
+    if( window.crtgiftId ){
+        $('[data-cid="' + window.crtgiftId + '"] img').click();
+    }
 
 
 
