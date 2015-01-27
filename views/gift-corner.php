@@ -4,17 +4,17 @@ if (isset($_GET["key"])) {
   require_once 'common/inc.php';
   $crtgift = ContentAR::loadContentWithUrlKey($_GET["key"], "gift");
   if (!$crtgift || $crtgift->type != GiftContentAR::model()->type) {
-    exit(header("Location: /index.php"));
+    //exit(header("Location: /index.php"));
   }
 }
 else {
-  exit(header("Location: /index.php"));
+  //exit(header("Location: /index.php"));
 }
 include_once 'common/header.php';?>
 
 <script type="text/javascript">
   
-  var crtgiftId = "<?php echo $crtgift->cid?>";
+  var crtgiftId = "<?php echo isset($crtgift) ? $crtgift->cid: 0;?>";
 </script>
 
 		<!-- detail -->
@@ -55,7 +55,7 @@ include_once 'common/header.php';?>
                   <div class="price">¥ <?php echo $gift->price;?></div>
                   <a href="<?php echo url('gift-corner', array('cid' => $gift->cid))?>" data-a="i-want-to-buy" class="btn transition-wrap"><span class="transition"><?php echo Yii::t("strings", "I Want To Buy")?><br/><br/><?php echo Yii::t("strings", "I Want To Buy")?></span></a>
                   <textarea style="display:none;">
-                  <?php echo json_encode(array("name" => $gift->title, 
+                  <?php echo CJavaScript::jsonEncode(array("name" => $gift->title, 
                       "pics" => $gift->product_slide_image, 
                       "product" => $gift->cid, 
                       "price" => $gift->price,
@@ -63,7 +63,7 @@ include_once 'common/header.php';?>
                       "material" => $gift->material,
                       "size" => $gift->size,
                       "unit" => $gift->unit,
-                      "desc" => $gift->body))?>
+                      "desc" => htmlspecialchars($gift->body)))?>
                   </textarea>
                 </li>
               <?php if( $index % 3 == 0 ): ?>
