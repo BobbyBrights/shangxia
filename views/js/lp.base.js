@@ -1090,7 +1090,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 var index = $(this).index();
 
                 $slidebox.children().eq( index )
-                    .css({'zIndex': 2 , left: lastIndex > index ? '-100%' : '100%'})
+                    .css({'zIndex': 2 , left: '100%'})
                     .stop(true)
                     .animate({
                         left: 0

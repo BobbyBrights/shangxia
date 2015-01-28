@@ -4,15 +4,11 @@ include_once 'common/header.php';?>
 		<!-- detail -->
 		<div class="section intoview-effect" data-effect="fadeup">
 			<div class="detail cs-clear">
-				<div class="arrows arrows2 detailprev" data-a="page-prev"
-					data-title="<?php echo Yii::t('strings', 'BOUTIQUES')?>"
-					data-link="/boutique/shanghai"></div>
+				<div class="arrows arrows2 detailprev" data-a="page-prev" data-title="<?php echo Yii::t('strings', 'BOUTIQUES')?>"></div>
 				<div class=" detailcon">
 					<h2><?php echo Yii::t("strings", "shang xia news")?></h2>
 				</div>
-				<div class="arrows arrows2 detailnext" data-a="page-next"
-					data-title="<?php echo Yii::t('strings', 'ABOUT')?>"
-					data-link="/about"></div>
+				<div class="arrows arrows2 detailnext" data-a="page-next" data-title="<?php echo Yii::t('strings', 'ABOUT')?>"></div>
 			</div>
 		</div>
 		<!-- related products -->
@@ -21,14 +17,44 @@ include_once 'common/header.php';?>
 				
           <?php $news = loadFirstNews();?>
           <?php if ($news): ?>
-		        <!-- News 顶部模版 -->
-		        <?php if ($news->tpl == 1): ?>
-		          <?php require_once "./news-tpl1.php";?>
-		        <?php elseif ($news->tpl == 2): ?>
-		          <?php require_once "./news-tpl2.php";?>
-		        <?php else: ?>
-		          <?php require_once "./news-tpl3.php";?>
-		        <?php endif;?>
+	          	<div class="picinfortxt news-picinfortxt">
+	          		<div class="picinfortxt-inner">
+			            <h2><?php echo $news->title?></h2>
+			            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+			            <div class="body">
+			              <?php echo $news->body?>
+			            </div>
+		            </div>
+<!--		            <div style="margin-right:50px;">-->
+<!--						<a href="#" data-a="show-pop" class="btn transition-wrap"><span class="transition">--><?php //echo Yii::t("strings", "read more")?><!--<br><br>--><?php //echo Yii::t("strings", "read more")?><!--</span></a>-->
+<!--						<textarea style="display:none;">-->
+<!--							<h2>--><?php //echo $news->title?><!--</h2>-->
+<!--				            <h3 style="text-transform:uppercase;">--><?php //echo date("Y M d", strtotime($news->date))?><!--</h3>-->
+<!--				            <div class="body">-->
+<!--				              --><?php //echo $news->body?>
+<!--				            </div>-->
+<!--						</textarea>-->
+<!--					</div>-->
+	            </div>
+				<div class="picinforpic">
+            <?php if ($news->news_slide_image):?>
+					<div class="slide">
+						<div class="slidebox cs-clear">
+              <?php foreach($news->news_slide_image as $image): ?>
+                <img class="slideitem" src="<?php echo $image?>" width="100%" />
+              <?php endforeach;?>
+						</div>
+            <?php endif;?>
+            <?php if ($news->news_slide_image):?>
+						<ul class="slidetab">
+              <?php foreach($news->news_slide_image as $index => $image): ?>
+							<li class="<?php if ($index == 0) echo "on"?>"></li>
+              <?php endforeach;?>
+						</ul>
+            <?php endif;?>
+						<!-- 数量改变需要改变css，或者用js来调整slidebox的宽度和slidetab的位置 -->
+					</div>
+				</div>
         	<?php endif;?>
 				<!--  -->
 			</div>
@@ -123,23 +149,15 @@ include_once 'common/header.php';?>
                   	<?php echo $press->title?><br />
                   	<span class="date"><?php echo date("M Y", strtotime($press->publish_date))?></span>
                   </p>
-                  <?php if( $press->video ){?>
-                  <div class="press-video-play"></div>
-                  <?php }?>
                   <textarea style="display:none;">
-                  	<?php if( $press->video ){?>
-		                <div class="press-video" style="position:fixed;width:100%;height:100%;left:0;top:0;" data-video="<?php echo $press->video?>">
-		                </div>
-                  	<?php } else { ?>
-		              	<div class="picoperate cs-clear">
-		                    <a href="#" class="picopsized" data-a="picopsized"></a>
-		                    <a href="#" class="picopsizeup" data-a="picopsizeup"></a>
-		                    <a href="<?php echo $press->master_image?>" class="picopdown" target="_blank"></a>
-		                </div>
-		                <div class="pic-press">
-		                	<img src="<?php echo $press->master_image?>" alt="" width="100%" style="margin:0 auto;">
-		                </div>
-		            <?php }?>
+	              	<div class="picoperate cs-clear">
+	                    <a href="#" class="picopsized" data-a="picopsized"></a>
+	                    <a href="#" class="picopsizeup" data-a="picopsizeup"></a>
+	                    <a href="<?php echo $press->master_image?>" class="picopdown" target="_blank"></a>
+	                </div>
+	                <div class="pic-press">
+	                	<img src="<?php echo $press->master_image?>" alt="" width="100%" style="margin:0 auto;">
+	                </div>
 	              </textarea>
                 </a>
               <?php endforeach;?>

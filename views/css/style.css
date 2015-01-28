@@ -225,7 +225,7 @@ img.slideitem{height: auto;}
 .detail h2{font-size:30px;padding:0 0 20px;text-transform : uppercase;line-height: 40px;font-family: "Gotham Book";color:#4b3700;}
 .detail p{font-size: 18px;font-family: Garamond;padding:0 20px 0 0;}
 .detail .arrows{height:180px;float: left;width: 11%;cursor: pointer;font-family: 'Gotham Light';position: relative;}
-.detail .arrows .text{text-transform: uppercase;position: absolute;left: 25px;height: 30px;line-height: 30px;top: 50%;margin-top: -15px;white-space: nowrap;}
+.detail .arrows .text{background:#fff;padding:0 10px;text-transform: uppercase;position: absolute;left: 25px;height: 30px;line-height: 30px;top: 50%;margin-top: -15px;white-space: nowrap;}
 .detail .detailnext .text{left:auto;right:25px;}
 .detail .arrows2{height: 44px;line-height: 44px;}
 .detail .arrows3{height: 80px;}
