@@ -329,6 +329,13 @@ function loadCollectionFromProduct($product) {
   return CollectionContentAR::model()->findByPk($product->collection);
 }
 
+function loadProductTypeFromProduct($product) {
+  $typeKey = $product->product_type;
+  $types = ProductContentAR::getType();
+
+  return $types[$typeKey];
+}
+
 // 加载相似的产品
 // 同一个类型下／同一个分类下的所有产品
 function loadSimilarProducts($product) {
