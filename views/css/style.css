@@ -989,7 +989,7 @@ background: rgb(227,227,227);}
     .nav-pop-item .nav-text i {position: static;font-size: 30px;font-family: 'Gotham Light';text-transform: uppercase;}
     .nav-pop-inner .inout-bg{display: none;}
 
-    .nav-pop-nav {float: none;width: 100%;text-align: center;display: none;}
+    .nav-pop-nav {float: none;width: 100%;text-align: center;}
     .nav-pop-nav p{margin-right: 0;text-align: center;font-size: 30px;font-family: 'Gotham Light';text-transform: uppercase;}
     .nav-pop-wraps{display: none;}
     .nav-pop.nav-pop-collections .nav-pop-nav>p:first-child {display: none;}
