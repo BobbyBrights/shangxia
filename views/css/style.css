@@ -957,7 +957,7 @@ background: rgb(227,227,227);}
     .head-fixed:after{content:' ';position: absolute;background:white;   width: 100% ;height: 1px;bottom: -1px;left: 0px;}
 
     .nav{position: relative;z-index: -1;display: none;}
-    .logo{float: none;margin: -35px auto 0;}
+    .logo{float: none;margin: -35px -22px 0;}
     .hd_language{display: none;}
     .hd_oter{right: 0 !important;position: static;}
     .head-inner {width: 100%;margin-left: 0;padding: 60px 0 !important;}

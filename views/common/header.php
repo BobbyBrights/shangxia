@@ -8,7 +8,7 @@ require_once "inc.php";?>
   <meta name="viewport" content="minimal-ui, width=640, minimum-scale=0.5, maximum-scale=0.5, target-densityDpi=290,user-scalable=no" />
   <meta name="keywords" content="<?php echo Yii::t("page_title", "meta_keywords")?>" />
   <meta name="description" content="<?php echo Yii::t("page_title", "meta_desc")?>" />
-  <link rel="stylesheet" type="text/css" href="/css/style.css?_=12345" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css?_=9999" />
   <link rel="stylesheet" type="text/css" href="/css/editme.css" />
     <!--[if lt IE 9]>
     <link href="/css/ie8.css" rel="stylesheet" type="text/css" />
