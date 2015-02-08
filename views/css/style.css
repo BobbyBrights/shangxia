@@ -960,7 +960,7 @@ background: rgb(227,227,227);}
     .logo{float: none;margin: -35px auto 0;}
     .hd_language{display: none;}
     .hd_oter{right: 0 !important;position: static;}
-    .head-inner {width: 100%;margin-left: 0;}
+    .head-inner {width: 100%;margin-left: 0;padding: 60px 0 !important;}
     .hd_search{width: 35px;height: 36px;background:url(../images/m_search.png) no-repeat;position: absolute;right: 7%;top: 37px;}
 
     .m-nav{width: 49px;height: 37px;position: absolute;top: 37px;left:7%;background:url(../images/m_nav.png) no-repeat center;}
