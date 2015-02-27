@@ -147,6 +147,7 @@ a{text-decoration:none;outline: none;color:inherit;}
 /*slide*/
 .slide-wrap{margin-bottom: 130px;}
 .slide{position: relative;overflow: hidden;}
+.product_slide {margin-bottom:100px;}
 .slidebox{height: 100%;}
 .slideitem{float: left;width:25%; position: relative;height: 100%;overflow: hidden;min-height: 100px;}
 img.slideitem{height: auto;}
@@ -593,7 +594,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .product-item {margin-bottom: 10px;}
 .product-item .product-text{width: 36.47%; float: left;text-align: center;padding-top: 70px;}
 .product-item .product-text h2{font-size: 30px;font-family: "Gotham Book";color: #4b3700;padding-bottom: 40px;text-transform: uppercase;line-height: 120%;}
-.product-item .product-text p{font-family: Garamond;color: rgb(158, 146, 122);font-size: 18px;line-height: 24px}
+.product-item .product-text p,.product-item .product-text div{font-family: Garamond;color: rgb(158, 146, 122);font-size: 18px;line-height: 24px;padding:0 30px;}
 .product-item .product-image{width:63.53%; float:right;}
 
 .product-item-right .product-text{float: right;}
@@ -1102,6 +1103,8 @@ background: rgb(227,227,227);}
     .product-detail .coll_videocom {font-size: 26px;}
     .product-detail .p-craft .btn{width: 66.666%;margin-top: 50px;}
     .piclistitem{font-size: 26px;}
+    .product-item .product-text {width:100%;float:none;padding:20px 0;}
+    .product-item .product-image {width:100%;float:none;}
     /* search */
     .searchnav{width: 100%;}
     .searchnavcom{width: 80%;}

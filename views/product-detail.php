@@ -27,7 +27,7 @@ $pagename = 'product-detail';
 		<!-- detail -->
 		<?php if (!$product->gift):?>
 		    <?php if ($product->product_slide_image): ?>
-		      <div data-resize="1600:760" class="section slide">
+		      <div data-resize="1600:760" class="section product_slide slide">
 		        <div class="slidebox cs-clear">
 		          <?php foreach (($product->product_slide_image) as $slide_image):?>
 		          <div class="slideitem scroll-lowheight">
