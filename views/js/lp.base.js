@@ -8,6 +8,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
     var isTablet = !!navigator.userAgent.toLowerCase().match(/(ipad|android(?!.*mobile)|tablet)/i);
     if( isTablet ){
         $('html').addClass('tablet');
+        $('meta[name="viewport"]').attr('content','minimal-ui, width=768, minimum-scale=0.7, maximum-scale=0.7, target-densityDpi=290,user-scalable=no');
     }
     if( isMobile ){
         $(document.body).addClass('mobile');
