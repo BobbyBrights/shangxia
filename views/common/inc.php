@@ -814,5 +814,16 @@ function next_product_type_link($type_name) {
   return '/craft/cashmere-felt';
 }
 
+function priceUnit() {
+  global $language;
+
+  if ($language == 'cn') {
+    return '¥';
+  }
+  else if ($language == 'en') {
+    return '¥';
+  }
+  return '€';
+}
 
 

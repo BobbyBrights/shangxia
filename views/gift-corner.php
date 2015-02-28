@@ -52,7 +52,7 @@ include_once 'common/header.php';?>
               <li data-cid="<?php echo $gift->cid ?>" class="piclistitem intoview-effect" data-effect="fadeup">
                 <img data-a="i-want-to-buy" data-d="" src="<?php echo makeThumbnail($gift->thumbnail, array(414, 219))?>" width="100%" />
                   <p><span class=""><?php echo $gift->title?></span></p>
-                  <div class="price">¥ <?php echo $gift->price;?></div>
+                  <div class="price"><?php print priceUnit()?> <?php echo $gift->price;?></div>
                   <a href="<?php echo url('gift-corner', array('cid' => $gift->cid))?>" data-a="i-want-to-buy" class="btn transition-wrap"><span class="transition"><?php echo Yii::t("strings", "I Want To Buy")?><br/><br/><?php echo Yii::t("strings", "I Want To Buy")?></span></a>
                   <textarea style="display:none;">
                   <?php echo CJavaScript::jsonEncode(array("name" => $gift->title, 

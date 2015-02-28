@@ -334,12 +334,12 @@ class MediaAR extends CActiveRecord {
 		if (!$widthSamller) {
 			$start_x = round(($t_w - $w)/2);
 			$start_y = 0;
-			$thumb->crop($wantW, $wantH, $start_x, $start_y);
+			$thumb->crop($t_w, $t_h, $start_x, $start_y);
 		}
 		else {
 			$start_x = 0;
 			$start_y = round(($t_h - $h) / 2);
-			$thumb->crop($wantW, $wantH, $start_x, $start_y);
+			$thumb->crop($t_w, $t_h, $start_x, $start_y);
 		}
 
 		$thumb->save($abssaveto);

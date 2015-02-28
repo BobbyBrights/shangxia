@@ -148,7 +148,7 @@
 			<p><label><?php echo Yii::t("strings", "Size") ?>: </label> #[size]</p>
 			<p><label><?php echo Yii::t("strings", "Unit") ?>: </label> #[unit]</p>
 			<br/>
-			<p>￥ #[price]</p>
+			<p><?php echo priceUnit()?> #[price]</p>
 		</div>
 		<div class="product-info-desc">#[desc]</div>
 	</div>
