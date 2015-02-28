@@ -25,102 +25,53 @@ $pagename = 'product-detail';
       	<p><?php echo Yii::t("strings", "collections")?>&nbsp;&gt;&nbsp;<?php $collection = loadCollectionFromProduct($product); ?><a data-a="nav-link" href="<?php echo url("product-type", array("name" => ProductContentAR::getTypeKeyName($product->product_type) ))?>"><?php echo loadProductTypeFromProduct($product);?></a>&nbsp;&gt;&nbsp;<?php echo $product->title?> </p>
 		</div>
 		<!-- detail -->
-		<?php if (!$product->gift):?>
-		    <?php if ($product->product_slide_image): ?>
-		      <div data-resize="1600:760" class="section slide">
-		        <div class="slidebox cs-clear">
-		          <?php foreach (($product->product_slide_image) as $slide_image):?>
-		          <div class="slideitem scroll-lowheight">
-		          	<img src="<?php echo makeThumbnail($slide_image, array(1500, "auto"))?>" width="100%" class="scroll-lowheight-item" />
-		          </div>
-		          <?php endforeach;?>
-		        </div>
-		        <ul class="slidetab cs-clear">
-		          <?php foreach (($product->product_slide_image) as $index => $slide_image):?>
-		            <li class="<?php if ($index == 0) echo "on"?>"></li>
-		          <?php endforeach;?>
-		        </ul>
-		        <!-- 数量改变需要改变css，或者用js来调整slidebox的宽度和slidetab的位置 -->
-		      </div>
-		    <?php endif;?>
-		<?php else: ?>
-		 <!-- 产品详情 -->
-			<div class="section ">
-				<div class="detail coll_product cs-clear">
-	        		<div class="arrows arrows2 <?php if ($prevProduct) echo 'detailprev';?>" data-a="page-prev" data-title="<?php echo $prevProduct->title?>" data-url="<?php if ($prevProduct) echo url("product-detail", array("cid" => $prevProduct->cid)) ?>"></div>
-					
-					<div class=" detailcon intoview-effect" data-split="1" data-effect="fadeup" data-num="1">
-						<h2 class="intoview-effect" data-effect="fadeup"><?php echo $product->title?></h2>
-						<div class="slide-con">
-							<ul class="slide-con-inner cs-clear">
-								<li class="j-scroll-bar" onselectstart="return false;">
-									<p><?php echo $product->body?></p>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="arrows arrows2 <?php if ($nextProduct) echo 'detailnext';?>" data-a="page-next" data-title="<?php echo $nextProduct->title?>" data-url="<?php if ($nextProduct) echo url("product-detail", array("cid" => $nextProduct->cid)) ?>"></div>
-				</div>
-			      <?php if ($product->gift): ?>
-			        	<a href="#" style="margin-bottom:100px;" class="btn transition-wrap" data-id="<?php echo $product->cid?>" data-d="product=<?php echo $product->cid?>" data-a="i-want-to-buy"><span class="transition"><?php echo Yii::t("strings", "I Want To Buy")?><br/><br/><?php echo Yii::t("strings", "I Want To Buy")?></span></a>
-			      <?php else:?>
-			      	<br><br>
-			        <!-- <a href="#" style="margin-bottom:50px;border:0px;" class="btn transition-wrap"></a> -->
-			      <?php endif;?>
-			</div>
-		<?php endif;?>
+		<?php if ($product->product_slide_image): ?>
+	      <div data-resize="1600:760" class="section product_slide slide">
+	        <div class="slidebox cs-clear">
+	          <?php foreach (($product->product_slide_image) as $slide_image):?>
+	          <div class="slideitem scroll-lowheight">
+	          	<img src="<?php echo makeThumbnail($slide_image, array(1500, "auto"))?>" width="100%" class="scroll-lowheight-item" />
+	          </div>
+	          <?php endforeach;?>
+	        </div>
+	        <ul class="slidetab cs-clear">
+	          <?php foreach (($product->product_slide_image) as $index => $slide_image):?>
+	            <li class="<?php if ($index == 0) echo "on"?>"></li>
+	          <?php endforeach;?>
+	        </ul>
+	        <!-- 数量改变需要改变css，或者用js来调整slidebox的宽度和slidetab的位置 -->
+	      </div>
+	    <?php endif;?>
 		
-		<?php if (!$product->gift): ?>
-			<div class="section intoview-effect" data-effect="fadeup">
+		<div class="section intoview-effect" data-effect="fadeup">
+		  <div class="product-item cs-clear">
+		    <div class="product-text">
+		      <h2><?php echo $product->title?></h2>
+		      <p><?php echo $product->body?></p>
+		    </div>
+		    <img class="product-image" src="<?php echo $product->slide_image_one?>" />
+		  </div>
 
-			  <div class="product-item cs-clear">
-			    <div class="product-text">
-			      <h2><?php echo $product->title?></h2>
-			      <p><?php echo $product->body?></p>
-			    </div>
-			    <img class="product-image" src="<?php echo $product->slide_image_one?>" />
-			  </div>
+		  <div class="product-item product-item-right cs-clear">
+		    <div class="product-text">
+		      <h2><?php echo $product->title_two?></h2>
+		      <p><?php echo $product->short_description_two?></p>
+		    </div>
+		    <img class="product-image" src="<?php echo $product->slide_image_two?>" />
+		  </div>
 
-			  <div class="product-item product-item-right cs-clear">
-			    <div class="product-text">
-			      <h2><?php echo $product->title_two?></h2>
-			      <p><?php echo $product->short_description_two?></p>
-			    </div>
-			    <img class="product-image" src="<?php echo $product->slide_image_two?>" />
-			  </div>
+		  <div class="product-item cs-clear">
+		    <div class="product-text">
+		      <h2><?php echo $product->title_three?></h2>
+		      <p><?php echo $product->short_description_three?></p>
+		    </div>
+		    <img class="product-image" src="<?php echo $product->slide_image_three?>" />
+		  </div>
 
-			  <div class="product-item cs-clear">
-			    <div class="product-text">
-			      <h2><?php echo $product->title_three?></h2>
-			      <p><?php echo $product->short_description_three?></p>
-			    </div>
-			    <img class="product-image" src="<?php echo $product->slide_image_three?>" />
-			  </div>
-
-			  <a href="#" style="margin-top:80px;" class="btn transition-wrap" data-id="" data-d="product=" data-a="i-want-to-buy"><span class="transition"><?php echo Yii::t("strings", "I Want To Buy")?><br/><br/><?php echo Yii::t("strings", "I Want To Buy")?></span></a>
-			</div>
-		    
-		<?php else: ?>
-			<!--  -->
-			<!-- video -->
-		    <?php if ($product->product_slide_image): ?>
-		      <div data-resize="1600:760" class="section slide">
-		        <div class="slidebox cs-clear">
-		          <?php foreach (($product->product_slide_image) as $slide_image):?>
-		          <div class="slideitem scroll-lowheight">
-		          	<img src="<?php echo makeThumbnail($slide_image, array(1500, "auto"))?>" width="100%" class="scroll-lowheight-item" />
-		          </div>
-		          <?php endforeach;?>
-		        </div>
-		        <ul class="slidetab cs-clear">
-		          <?php foreach (($product->product_slide_image) as $index => $slide_image):?>
-		            <li class="<?php if ($index == 0) echo "on"?>"></li>
-		          <?php endforeach;?>
-		        </ul>
-		        <!-- 数量改变需要改变css，或者用js来调整slidebox的宽度和slidetab的位置 -->
-		      </div>
-		    <?php endif;?>
+		<?php if ($product->gift): ?>
+		  <a href="#" class="btn btn-wantbuy transition-wrap" data-id="<?php echo $product->cid?>" data-d="product=<?php echo $product->cid?>" data-a="i-want-to-buy"><span class="transition"><?php echo Yii::t("strings", "I Want To Buy")?><br/><br/><?php echo Yii::t("strings", "I Want To Buy")?></span></a>
 		<?php endif;?>
+		</div>
 
     
 			<!-- barbg -->

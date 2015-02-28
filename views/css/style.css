@@ -147,6 +147,7 @@ a{text-decoration:none;outline: none;color:inherit;}
 /*slide*/
 .slide-wrap{margin-bottom: 130px;}
 .slide{position: relative;overflow: hidden;}
+.product_slide {margin-bottom:100px;}
 .slidebox{height: 100%;}
 .slideitem{float: left;width:25%; position: relative;height: 100%;overflow: hidden;min-height: 100px;}
 img.slideitem{height: auto;}
@@ -593,10 +594,13 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .product-item {margin-bottom: 10px;}
 .product-item .product-text{width: 36.47%; float: left;text-align: center;padding-top: 70px;}
 .product-item .product-text h2{font-size: 30px;font-family: "Gotham Book";color: #4b3700;padding-bottom: 40px;text-transform: uppercase;line-height: 120%;}
-.product-item .product-text p{font-family: Garamond;color: rgb(158, 146, 122);font-size: 18px;line-height: 24px}
+.product-item .product-text p,.product-item .product-text div{font-family: Garamond;color: rgb(158, 146, 122);font-size: 18px;line-height: 24px;padding:0 30px;}
 .product-item .product-image{width:63.53%; float:right;}
+.tablet .product-item .product-text {padding-top:20px;}
+.tablet .product-item .product-text h2 {padding-bottom:10px;}
 
 .product-item-right .product-text{float: right;}
+.btn-wantbuy {margin:80px auto;}
 
 
 .inout-effect{overflow: hidden;position: relative;}
@@ -957,10 +961,10 @@ background: rgb(227,227,227);}
     .head-fixed:after{content:' ';position: absolute;background:white;   width: 100% ;height: 1px;bottom: -1px;left: 0px;}
 
     .nav{position: relative;z-index: -1;display: none;}
-    .logo{float: none;margin: 0 auto;}
+    .logo{float: none;margin: -35px -22px 0;}
     .hd_language{display: none;}
     .hd_oter{right: 0 !important;position: static;}
-    .head-inner {width: 100%;margin-left: 0;}
+    .head-inner {width: 100%;margin-left: 0;padding: 60px 0 !important;}
     .hd_search{width: 35px;height: 36px;background:url(../images/m_search.png) no-repeat;position: absolute;right: 7%;top: 37px;}
 
     .m-nav{width: 49px;height: 37px;position: absolute;top: 37px;left:7%;background:url(../images/m_nav.png) no-repeat center;}
@@ -973,7 +977,7 @@ background: rgb(227,227,227);}
 
 
     /* nav */
-    .nav-opened{background:url(../images/nav-bg.jpg) no-repeat center bottom; }
+    .nav-opened{background:url(../images/nav-bg.jpg) no-repeat center bottom; padding: 60px 0px !important;}
     .m-mask{position: fixed;background: rgba(0,0,0,.3);top: 0;width: 100%;height: 100%;z-index: 101;}
     body .nav{width: 100% !important;position: absolute;top: 110px;background: white;font-size: 30px;padding-top: 30px;}
     body .nav li {float: none;width: 100%;font-size: 30px;line-height: 80px;}
@@ -989,7 +993,7 @@ background: rgb(227,227,227);}
     .nav-pop-item .nav-text i {position: static;font-size: 30px;font-family: 'Gotham Light';text-transform: uppercase;}
     .nav-pop-inner .inout-bg{display: none;}
 
-    .nav-pop-nav {float: none;width: 100%;text-align: center;display: none;}
+    .nav-pop-nav {float: none;width: 100%;text-align: center;}
     .nav-pop-nav p{margin-right: 0;text-align: center;font-size: 30px;font-family: 'Gotham Light';text-transform: uppercase;}
     .nav-pop-wraps{display: none;}
     .nav-pop.nav-pop-collections .nav-pop-nav>p:first-child {display: none;}
@@ -1102,6 +1106,8 @@ background: rgb(227,227,227);}
     .product-detail .coll_videocom {font-size: 26px;}
     .product-detail .p-craft .btn{width: 66.666%;margin-top: 50px;}
     .piclistitem{font-size: 26px;}
+    .product-item .product-text {width:100%;float:none;padding:20px 0;}
+    .product-item .product-image {width:100%;float:none;}
     /* search */
     .searchnav{width: 100%;}
     .searchnavcom{width: 80%;}

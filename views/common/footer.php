@@ -179,7 +179,7 @@ if( $map == 'google' ) {?>
 <script type="text/javascript" src="/js/sea/sea-debug.js" data-config="/js/config.js"></script>
 <script type="text/javascript" src="/js/sea/plugin-shim.js"></script>
 <script type="text/javascript" src="/js/lp.core.js"></script>
-<script type="text/javascript" src="/js/lp.base.js"></script>
+<script type="text/javascript" src="/js/lp.base.js?a=111"></script>
 
 </body>
 </html>

@@ -8,6 +8,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
     var isTablet = !!navigator.userAgent.toLowerCase().match(/(ipad|android(?!.*mobile)|tablet)/i);
     if( isTablet ){
         $('html').addClass('tablet');
+        $('meta[name="viewport"]').attr('content','minimal-ui, width=768, minimum-scale=0.7, maximum-scale=0.7, target-densityDpi=290,user-scalable=no');
     }
     if( isMobile ){
         $(document.body).addClass('mobile');
@@ -573,12 +574,12 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                     // render nav
                     var $navWrap = $('.nav-pop-collections .nav-pop-wrap').eq(0).appendTo('.nav-pop-collections');
                     var $gift = $('.nav-pop-nav p a').last();
-                    $navWrap.find('.nav-pop-wrap-inner a').last().clone()
-                        .attr( 'href' , $gift.attr('href') )
-                        .find('.nav-text i')
-                        .html( $gift.text().replace('>' , '') )
-                        .end()
-                        .appendTo( $navWrap.find('.nav-pop-wrap-inner') );
+                    // $navWrap.find('.nav-pop-wrap-inner a').last().clone()
+                    //     .attr( 'href' , $gift.attr('href') )
+                    //     .find('.nav-text i')
+                    //     .html( $gift.text().replace('>' , '') )
+                    //     .end()
+                    //     .appendTo( $navWrap.find('.nav-pop-wrap-inner') );
                 }
 
 
