@@ -247,7 +247,7 @@ img.slideitem{height: auto;}
 .knowhowitem{margin: 0 0 10px;font-family: "Gotham Book";overflow: hidden;}
 .knowhowL{float: left}
 .knowhowR{float: right}
-.knowhowintro{position: relative; width: 30%;font-size:16px;text-align: center;font-family: Garamond ;color:#4b3700;overflow: hidden;}
+.knowhowintro{position: relative; width: 32%;font-size:16px;text-align: center;font-family: Garamond ;color:#4b3700;overflow: hidden;}
 .knowhowintro p.eff{text-transform: uppercase;font-family: "Gotham Medium"; position: relative;-webkit-transition: margin 0.2s linear;-moz-transition: margin 0.2s linear;-o-transition: margin 0.2s linear;-ms-transition: margin 0.2s linear;transition: margin 0.2s linear;}
 .knowhowintro:hover p.eff{margin-top: -27px;text-transform: uppercase;}
 .knowhowintro:hover a{opacity: 1;filter:alpha(opacity=100);margin-top:5px;}

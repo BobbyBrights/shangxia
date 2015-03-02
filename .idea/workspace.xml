@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91aff1e-5f75-400f-ade5-6675323d0744" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php" afterPath="$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/style.css" afterPath="$PROJECT_DIR$/views/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shangxia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +62,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1131" column="30" selection-start="51169" selection-end="51169" vertical-scroll-proportion="0.34873325">
+            <state line="249" column="43" selection-start="13264" selection-end="13264" vertical-scroll-proportion="0.03875969">
               <folding />
             </state>
           </provider>
@@ -466,7 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1131" column="30" selection-start="51169" selection-end="51169" vertical-scroll-proportion="0.34873325">
+        <state line="249" column="43" selection-start="13264" selection-end="13264" vertical-scroll-proportion="0.03875969">
           <folding />
         </state>
       </provider>
