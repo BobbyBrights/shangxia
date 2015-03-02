@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91aff1e-5f75-400f-ade5-6675323d0744" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php" afterPath="$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php" afterPath="$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/protected/views/page/addcontent.php" afterPath="$PROJECT_DIR$/views/admin/protected/views/page/addcontent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/news-detail.php" afterPath="$PROJECT_DIR$/views/news-detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/news-tpl1.php" afterPath="$PROJECT_DIR$/views/news-tpl1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/news-tpl2.php" afterPath="$PROJECT_DIR$/views/news-tpl2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/news-tpl3.php" afterPath="$PROJECT_DIR$/views/news-tpl3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/scripts/script.js" afterPath="$PROJECT_DIR$/views/admin/scripts/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php" afterPath="$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/style.css" afterPath="$PROJECT_DIR$/views/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shangxia.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418009342632" ignored="false" />
+    <file path="/Dummy.txt" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1425283960846" ignored="false" />
     <file path="/main.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418116495252" ignored="false" />
     <file path="/news.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417502472975" ignored="false" />
     <file path="/content.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1412947128942" ignored="false" />
@@ -29,8 +22,8 @@
     <file path="/header.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417590359030" ignored="false" />
     <file path="/product-detail.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413278471930" ignored="false" />
     <file path="/ie8.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413358648094" ignored="false" />
-    <file path="/homeslider_cn.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413882575873" ignored="false" />
-    <file path="/homeslider_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413882605543" ignored="false" />
+    <file path="/homeslider_cn.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422433600911" ignored="false" />
+    <file path="/homeslider_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422433812538" ignored="false" />
     <file path="/product-type.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417587658314" ignored="false" />
     <file path="$PROJECT_DIR$/../upstudios/css/base.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414488914289" ignored="false" />
     <file path="/base.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414488896735" ignored="false" />
@@ -42,6 +35,13 @@
     <file path="/script.js" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418114155670" ignored="false" />
     <file path="/addcontent.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418041947051" ignored="false" />
     <file path="/PressContentAR.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418188535205" ignored="false" />
+    <file path="/webform_ajax.module" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422430971652" ignored="false" />
+    <file path="/friend_cn.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422434061989" ignored="false" />
+    <file path="/friend_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422434085587" ignored="false" />
+    <file path="$PROJECT_DIR$/../ff/api/twitter/twitterlist.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422516842521" ignored="false" />
+    <file path="/twitterlist.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422516442660" ignored="false" />
+    <file path="/all.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1425282738612" ignored="false" />
+    <file path="/how-eggshell_porcelain.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1425285226667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,61 +61,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="news-tpl2.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/news-tpl2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="-4.75">
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="609" column="13" selection-start="34553" selection-end="34553" vertical-scroll-proportion="0.0">
+            <state line="1131" column="30" selection-start="51169" selection-end="51169" vertical-scroll-proportion="0.34873325">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/PageController.php">
+      <file leaf-file-name="craft.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/craft.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="44" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-5.857143">
+            <state line="76" column="18" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-12.107142">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/protected/modules/api/controllers/ContentController.php">
+      <file leaf-file-name="how-cashmere_felt.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/widget/how-cashmere_felt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="6" selection-start="1185" selection-end="1185" vertical-scroll-proportion="1.2142857">
+            <state line="86" column="30" selection-start="4859" selection-end="4859" vertical-scroll-proportion="-14.142858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PressContentAR.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php">
+      <file leaf-file-name="how-eggshell_porcelain.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="198" selection-end="511" vertical-scroll-proportion="0.29641184">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsContentAR.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="54" selection-start="198" selection-end="198" vertical-scroll-proportion="-6.785714">
-              <folding />
+            <state line="105" column="48" selection-start="5858" selection-end="5858" vertical-scroll-proportion="-13.464286">
+              <folding>
+                <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,13 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/news.php" />
-        <option value="$PROJECT_DIR$/views/admin/protected/messages/zh_cn/strings.php" />
-        <option value="$PROJECT_DIR$/views/product-type.php" />
-        <option value="$PROJECT_DIR$/views/common/header.php" />
-        <option value="$PROJECT_DIR$/views/news-press.php" />
-        <option value="$PROJECT_DIR$/views/js/lp.base.js" />
-        <option value="$PROJECT_DIR$/views/admin/protected/views/page/addcontent.php" />
         <option value="$PROJECT_DIR$/views/news-tpl2.php" />
         <option value="$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php" />
         <option value="$PROJECT_DIR$/views/news-tpl1.php" />
@@ -152,8 +127,15 @@
         <option value="$PROJECT_DIR$/views/admin/scripts/script.js" />
         <option value="$PROJECT_DIR$/views/news-detail.php" />
         <option value="$PROJECT_DIR$/views/admin/css/main.css" />
-        <option value="$PROJECT_DIR$/views/css/style.css" />
         <option value="$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php" />
+        <option value="$USER_HOME$/Desktop/webform_ajax.module" />
+        <option value="$USER_HOME$/Desktop/homeslider_cn.php" />
+        <option value="$USER_HOME$/Desktop/homeslider_en.php" />
+        <option value="$USER_HOME$/Desktop/friend_cn.php" />
+        <option value="$USER_HOME$/Desktop/friend_en.php" />
+        <option value="$USER_HOME$/Desktop/all.css" />
+        <option value="$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php" />
+        <option value="$PROJECT_DIR$/views/css/style.css" />
       </list>
     </option>
   </component>
@@ -190,7 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +218,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="widget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,106 +236,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,10 +296,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2540029" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20596798" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -420,6 +307,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -486,123 +374,99 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/product-tpl.php">
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="585" selection-end="585" vertical-scroll-proportion="0.47425896">
-          <folding />
-        </state>
+        <state line="28" column="3" selection-start="741" selection-end="741" vertical-scroll-proportion="0.5023328" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="541" column="0" selection-start="16090" selection-end="16090" vertical-scroll-proportion="0.39760837">
-          <folding />
-        </state>
+        <state line="10" column="54" selection-start="198" selection-end="198" vertical-scroll-proportion="0.02954899" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/views/page/editcontent.php">
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/modules/api/controllers/ContentController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="42" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.3900156">
-          <folding />
-        </state>
+        <state line="45" column="6" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.02954899" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/news-tpl3.php">
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/PageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="152" selection-end="164" vertical-scroll-proportion="0.11856474">
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="868" column="0" selection-start="14681" selection-end="14681" vertical-scroll-proportion="19.90882">
-          <folding />
-        </state>
+        <state line="40" column="44" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.02954899" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/news-tpl2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="-4.75">
+        <state line="7" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.2021773" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/homeslider_cn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="27" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.7410296" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/homeslider_en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-0.06708268" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/webform_ajax.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="851" selection-end="851" vertical-scroll-proportion="0.44801223" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/friend_cn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="114" selection-start="842" selection-end="842" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/friend_en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.2074883" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/FranklinGothicLT-DemiCmpr/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="30" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2859" column="11" selection-start="74304" selection-end="74304" vertical-scroll-proportion="0.14157973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/craft.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="18" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-12.107142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/widget/how-cashmere_felt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="30" selection-start="4859" selection-end="4859" vertical-scroll-proportion="-14.142858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="48" selection-start="5858" selection-end="5858" vertical-scroll-proportion="-13.464286">
           <folding>
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/BrandController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.74311924">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/ShopController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="609" column="13" selection-start="34553" selection-end="34553" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="44" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-5.857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/modules/api/ApiModule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/modules/api/controllers/ContentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="6" selection-start="1185" selection-end="1185" vertical-scroll-proportion="1.2142857">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="198" selection-end="198" vertical-scroll-proportion="-6.785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="198" selection-end="511" vertical-scroll-proportion="0.29641184">
+        <state line="1131" column="30" selection-start="51169" selection-end="51169" vertical-scroll-proportion="0.34873325">
           <folding />
         </state>
       </provider>

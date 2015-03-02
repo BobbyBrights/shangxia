@@ -103,7 +103,7 @@
             </div>
 					</textarea>
 				</div>
-				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/ep_7.jpg" width="100%" /></div>
+				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/ep_7.jpg" width="100%" /></div>
 			</div>
 			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
