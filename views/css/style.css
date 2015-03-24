@@ -4,57 +4,57 @@
     font-family: 'Gotham Light';
     src: url('../fonts/gotham-light.eot');
     src: url('../fonts/gotham-light.eot') format('embedded-opentype'),
-         url('../fonts/gotham-light.woff2') format('woff2'),
-         url('../fonts/gotham-light.woff') format('woff'),
-         url('../fonts/gotham-light.ttf') format('truetype'),
-         url('../fonts/gotham-light.svg#GothamRegular') format('svg');
+    url('../fonts/gotham-light.woff2') format('woff2'),
+    url('../fonts/gotham-light.woff') format('woff'),
+    url('../fonts/gotham-light.ttf') format('truetype'),
+    url('../fonts/gotham-light.svg#GothamRegular') format('svg');
 }
 @font-face {
     font-family: 'Garamond';
     src: url('../fonts/garamond.eot');
     src: url('../fonts/garamond.eot') format('embedded-opentype'),
-         url('../fonts/garamond.woff2') format('woff2'),
-         url('../fonts/garamond.woff') format('woff'),
-         url('../fonts/garamond.ttf') format('truetype'),
-         url('../fonts/garamond.svg#GaramondRegular') format('svg');
+    url('../fonts/garamond.woff2') format('woff2'),
+    url('../fonts/garamond.woff') format('woff'),
+    url('../fonts/garamond.ttf') format('truetype'),
+    url('../fonts/garamond.svg#GaramondRegular') format('svg');
 }
 
 @font-face {
     font-family: 'Gotham Book';
     src: url('../fonts/gotham-book.eot');
     src: url('../fonts/gotham-book.eot') format('embedded-opentype'),
-         url('../fonts/gotham-book.woff2') format('woff2'),
-         url('../fonts/gotham-book.woff') format('woff'),
-         url('../fonts/gotham-book.ttf') format('truetype'),
-         url('../fonts/gotham-book.svg#GothamRegular') format('svg');
+    url('../fonts/gotham-book.woff2') format('woff2'),
+    url('../fonts/gotham-book.woff') format('woff'),
+    url('../fonts/gotham-book.ttf') format('truetype'),
+    url('../fonts/gotham-book.svg#GothamRegular') format('svg');
 }
 @font-face {
     font-family: 'Gotham Bold';
     src: url('../fonts/gotham-bold.eot');
     src: url('../fonts/gotham-bold.eot') format('embedded-opentype'),
-         url('../fonts/gotham-bold.woff2') format('woff2'),
-         url('../fonts/gotham-bold.woff') format('woff'),
-         url('../fonts/gotham-bold.ttf') format('truetype'),
-         url('../fonts/gotham-bold.svg#GothamRegular') format('svg');
+    url('../fonts/gotham-bold.woff2') format('woff2'),
+    url('../fonts/gotham-bold.woff') format('woff'),
+    url('../fonts/gotham-bold.ttf') format('truetype'),
+    url('../fonts/gotham-bold.svg#GothamRegular') format('svg');
 }
 @font-face {
     font-family: 'Gotham Medium';
     src: url('../fonts/gotham-medium.eot');
     src: url('../fonts/gotham-medium.eot') format('embedded-opentype'),
-         url('../fonts/gotham-medium.woff2') format('woff2'),
-         url('../fonts/gotham-medium.woff') format('woff'),
-         url('../fonts/gotham-medium.ttf') format('truetype'),
-         url('../fonts/gotham-medium.svg#GothamRegular') format('svg');
+    url('../fonts/gotham-medium.woff2') format('woff2'),
+    url('../fonts/gotham-medium.woff') format('woff'),
+    url('../fonts/gotham-medium.ttf') format('truetype'),
+    url('../fonts/gotham-medium.svg#GothamRegular') format('svg');
 }
 
 @font-face {
     font-family: 'Gotham Bold';
     src: url('../fonts/gotham-bold.eot');
     src: url('../fonts/gotham-bold.eot') format('embedded-opentype'),
-         url('../fonts/gotham-bold.woff2') format('woff2'),
-         url('../fonts/gotham-bold.woff') format('woff'),
-         url('../fonts/gotham-bold.ttf') format('truetype'),
-         url('../fonts/gotham-bold.svg#GothamBold') format('svg');
+    url('../fonts/gotham-bold.woff2') format('woff2'),
+    url('../fonts/gotham-bold.woff') format('woff'),
+    url('../fonts/gotham-bold.ttf') format('truetype'),
+    url('../fonts/gotham-bold.svg#GothamBold') format('svg');
 }
 
 
@@ -247,7 +247,7 @@ img.slideitem{height: auto;}
 .knowhowitem{margin: 0 0 10px;font-family: "Gotham Book";overflow: hidden;}
 .knowhowL{float: left}
 .knowhowR{float: right}
-.knowhowintro{position: relative; width: 30%;font-size:16px;text-align: center;font-family: Garamond ;color:#4b3700;overflow: hidden;}
+.knowhowintro{position: relative; width: 32%;font-size:16px;text-align: center;font-family: Garamond ;color:#4b3700;overflow: hidden;}
 .knowhowintro p.eff{text-transform: uppercase;font-family: "Gotham Medium"; position: relative;-webkit-transition: margin 0.2s linear;-moz-transition: margin 0.2s linear;-o-transition: margin 0.2s linear;-ms-transition: margin 0.2s linear;transition: margin 0.2s linear;}
 .knowhowintro:hover p.eff{margin-top: -27px;text-transform: uppercase;}
 .knowhowintro:hover a{opacity: 1;filter:alpha(opacity=100);margin-top:5px;}
@@ -278,11 +278,11 @@ img.slideitem{height: auto;}
 .prolistitem p .date{font-family: garamond;}
 /*.newsitem p{background: #fff;color:#4b3700  ;height: 80px;}*/
 .newsitem p{background: #fff;
-color: #4b3700;
-height: 2.5em;
-margin: 20px 12px;
-padding: 0;
-overflow: hidden;}
+    color: #4b3700;
+    height: 2.5em;
+    margin: 20px 12px;
+    padding: 0;
+    overflow: hidden;}
 
 /*othercraf*/
 /*.othercraftit h2{width: 320px;margin-left: -160px;}*/
@@ -534,7 +534,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
 /*horizontal slide*/
 .js-horizontal-slide{}
-    .js-horizontal-slide .slide-con{width: 100%;overflow: hidden;}
+.js-horizontal-slide .slide-con{width: 100%;overflow: hidden;}
 
 
 
@@ -562,9 +562,9 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .map-marker{position: absolute;left: 50%;top: 50%;margin-left: -25px;margin-top: -25px;}
 
 .slidetip .transition {
-  color: #fff;
-  text-transform: capitalize;
-  font-style: normal;
+    color: #fff;
+    text-transform: capitalize;
+    font-style: normal;
 }
 /* baidu */
 #zoomer,.anchorBL{display: none;}
@@ -609,7 +609,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .story_summary {margin-bottom: 5em;}
 
 .picinfortxt p b {
-  font-weight: normal;
+    font-weight: normal;
 }
 #home-slider{position: relative;z-index: 101;}
 .normalbox {width:100%;}
@@ -619,85 +619,85 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .normalbox .slideitem .prolistitem {width: 100%;}
 
 .related-product {
-  padding-top: 30px;
-  padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .related-product h2 {
-  padding-top:0px;
-  padding-bottom: 20px;
-  text-transform: uppercase;
-  color: #4b3700;
-  font-family: "Gotham Bold";
+    padding-top:0px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #4b3700;
+    font-family: "Gotham Bold";
 }
 
 .related-product p {
-  line-height: 160%;
-  color: #9e927a;
+    line-height: 160%;
+    color: #9e927a;
 }
 
 .zitan-knowhow .inout-bg {
-  background-color: #f6f2e7;
+    background-color: #f6f2e7;
 }
 
 .ep-knowhow .inout-bg {
-  background-color: #edf3f3;
+    background-color: #edf3f3;
 }
 
 .w-knowhow .inout-bg {
-  background-color: #ecf6f0;
+    background-color: #ecf6f0;
 }
 
 .cf-knowhow .inout-bg {
-  background-color: #f9f4f4;
+    background-color: #f9f4f4;
 }
 
 /*.collection-page .collarrowsnext,.collection-page .collarrowsprev{background-position: center 30%;}*/
 .p-craft .knowhowtit h2 {
-  line-height: 50px;
+    line-height: 50px;
 }
 
 .p-craft .pcb {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 
 .lang-zh_cn .sitelinkitem h2.c1{text-indent: -0.5em;}
 
 .lang-zh_cn .introparis p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .detail p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .popcontxt {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .proinfortxt p{
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .introparis p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .storechoose p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .pop{
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .picinfortxt {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .knowhowintro {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .lang-zh_cn .contactform .productstit{
@@ -705,13 +705,13 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 }
 
 .lang-zh_cn .coll_videocom {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 #job-popup h3 {
-  display: inline-block;
-  padding-bottom: 10px;
-  /*border-bottom: 1px black solid;*/
+    display: inline-block;
+    padding-bottom: 10px;
+    /*border-bottom: 1px black solid;*/
 }
 
 .form-submit-tip{display: none;font-size: 24px;font-family: "Gotham Book";text-transform: uppercase;text-align: center;height: 40px;margin-bottom: -40px;line-height: 200%;}
@@ -721,7 +721,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
 
 .product-info{overflow: hidden;padding: 50px 10%;
-background: rgb(227,227,227);}
+    background: rgb(227,227,227);}
 .product-img-slide-num{font-family: "Gotham Book";color: #4b3700;float: left;width: 7%;text-align: right;margin-right: 3%;}
 .product-info-list{float: left;width: 40%;}
 .product-info-list h3{font-family: "Gotham Book";color: #4b3700;margin-bottom: 30px;text-transform: uppercase;}
@@ -740,20 +740,20 @@ background: rgb(227,227,227);}
 .product-slider .collarrowsnext{right: 0px;left: auto;background-position: center center;}
 
 .gift-corner .piclistitem img {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .lang-fr .nav-pop-nav p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .lang-fr .nav-pop-item .nav-text {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .newsitem p.date {
-  padding: 0px;
-  height: auto;
+    padding: 0px;
+    height: auto;
 }
 
 .privacy-policy p {text-align:left;}
@@ -885,7 +885,7 @@ background: rgb(227,227,227);}
 
 
 .conformbox .error {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .m-el{display: none;}
@@ -895,28 +895,28 @@ background: rgb(227,227,227);}
     .lang-fr .nav2 li {margin-right:7%;}
 }
 @media screen and (min-width:1000px ){
-    .lang-fr .nav1 li {margin-right:7%;}
+    .lang-fr .nav1 li {margin-right:5%;}
     .lang-fr .nav2 li {margin-right:7%;}
 }
 @media screen and (min-width:1100px ){
     .head-inner {width:85%;}
     .nav1 li {margin-right:10%;}
     .lang-zh_cn .nav1 li {margin-right:7%;}
-    .lang-fr .nav1 li {margin-right:7%;}
+    .lang-fr .nav1 li {margin-right:6%;}
     .lang-fr .nav2 li {margin-right:7%;}
 }
 @media screen and (min-width:1200px ){
     .head-inner {width:80%;}
     .nav1 li {margin-right:11%;}
     .lang-zh_cn .nav1 li {margin-right:7%;}
-    .lang-fr .nav1 li {margin-right:7%;}
+    .lang-fr .nav1 li {margin-right:6%;}
     .lang-fr .nav2 li {margin-right:10%;}
 }
 @media screen and (min-width:1300px ){
     .head-inner {width:80%;}
     .nav1 li {margin-right:13%;}
     .lang-zh_cn .nav1 li {margin-right:10%;}
-    .lang-fr .nav1 li {margin-right:10%;}
+    .lang-fr .nav1 li {margin-right:8%;}
     .lang-fr .nav2 li {margin-right:13%;}
 }
 @media screen and (max-width:830px){
@@ -972,7 +972,7 @@ background: rgb(227,227,227);}
 
     /** search form **/
     .searchform{padding: 40px 0;height: auto;}
-    .searchform form input{display: block;float: none;width: 100%;border: 1px solid #4b3700;height: 66px;line-height: 66px;text-indent: 1em;padding: 0;margin: 0;box-sizing: border-box;margin-bottom: 30px;} 
+    .searchform form input{display: block;float: none;width: 100%;border: 1px solid #4b3700;height: 66px;line-height: 66px;text-indent: 1em;padding: 0;margin: 0;box-sizing: border-box;margin-bottom: 30px;}
     .searchform form button{width: 100%;height: 66px;line-height: 66px;background: #4b3700;color: white;font-size: 26px;margin: 0;padding: 0px;border: 1px solid #4b3700;}
 
 
