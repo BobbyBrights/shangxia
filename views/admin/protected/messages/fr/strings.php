@@ -2,13 +2,13 @@
 
 return array(
     "about_brand_story_title" => "SHANG XIA: l’art de vivre chinois",
-    "about_brand_story_desc" => "SHANG XIA représente le design contemporain de l’art de vivre. Enraciné dans la culture chinoise, SHANG XIA s’engage à une perpétuelle innovation qui apporte à la vie moderne le sens du style et la virtuosité de l'artisanat traditionnel."
+    "about_brand_story_desc" => "<p>SHANG XIA représente le design contemporain de l’art de vivre. Enraciné dans la culture chinoise, SHANG XIA s’engage à une perpétuelle innovation qui apporte à la vie moderne le sens du style et la virtuosité de l'artisanat traditionnel."
     ."Dirigée par la designer Jiang Qiong Er, SHANG XIAconsacre toute son energie pour préserver les traditions de l’artisanat chinois. Ansi, en s’appuyant sur les métiers anciens elle les intègre dans nos vies quotidiennes par ses creations contemporaines. L’ingéniosité technique héritée de la Chine pourra se perpétuer : des meubles en bois, du bambou tressé sur porcelaine, du feutre de cachemire, de la porcelaine coquille d'oeuf...Ces techniques remarquables sont transformées par l'inspiration du créatif pour incarner à la fois la beauté et l'utilité. Elles sont devenues emblématiques de l'artisanat défendu par SHANG XIA."
     ."SHANG XIA est persuadé que l'histoire et le sentiment d'appartenance peuvent être retranscrits dans les objets. Ses créations pour la décoration d’intérieur possèdent un esprit traditionnel et un style moderne. A travers le mobilier, la décoration, les vêtements, les bijoux et les services à thé, SHANG XIA met en lumiere un style de vie, une qualité propre à SHANG XIA"
     ."SHANG XIA fait preuve de la plus grande exigence dans le choix de ses matériaux et dans le respect des pratiques artisanales pour ses produits. Avec goût et minutie, SHANG XIA combine une nature chaleureuse, harmonieuse et gracieuse."
     ."SHANG XIA est également engagée à repenser le lien entre mode de vie et art. Dans les expositions, les jeunes artisans sont encouragés à créer avec SHANG XIA des éditions limitées intitulées \"objets culturels\" de précieux objets de collection. Avec cette rencontre entre la technique et l'art, SHANG XIA partage son style de vie."
     ."\"Au-dessus comme en dessous\" : la signification de SHANG XIA,est le fruit d'une culture de 5000 ans. Elle exprime l'héritage et la construction de ponts immatériels qui relient passé et présent, Orient et Occident, art et style de vie, humanité et nature. C’est le précieux mélange entre raffinement et hospitalité de la Chine."
-    ."Il existe maintenant des boutiques SHANG XIA à Shanghai, à Pékin et à Paris. En octobre 2014, SHANG XIA a ouvert sa première maison SHANG XIA : , un espace pour la vente, la culture et l'art. La Maison est le foyer du style chinois, de la créativité et de la qualité, de l'hospitalité et de la générosité, de l elegance et de la modernité.",
+    ."Il existe maintenant des boutiques SHANG XIA à Shanghai, à Pékin et à Paris. En octobre 2014, SHANG XIA a ouvert sa première maison SHANG XIA : , un espace pour la vente, la culture et l'art. La Maison est le foyer du style chinois, de la créativité et de la qualité, de l'hospitalité et de la générosité, de l elegance et de la modernité.</p>",
     "about_brand_founder_title" => "FONDATRICE ET DIRECTRICE ARTISTIQUE",
     "about_brand_founter_desc" => "Jiang Qiong Er, directrice artistique et CEO de SHANG XIA, est un designer de renommée internationale. Après de nombreuses années d’études en Europe, Jiang Qiong Er apporte une approche cosmopolite et une expérience bi-culturelle dans ses créations. Respectueuse de la tradition, elle puise son inspiration dans de multiples sources, qui se reflète dans la polyvalence de son travail."
     ."Jiang Qiong Er naît dans une famille avec une forte tradition artistique, et commence à apprendre les arts hérités des traditions séculaires. Dès l'âge de six ans, elle étudie la peinture chinoise traditionnelle avec Cheng Shifa et la calligraphie avec Han Tianheng. Sa formation accadémique débute quand elle est admise à l'école de design de l'Université de Tongji. Après avoir obtenu son diplôme, elle fait le premier choix majeur de sa carrière artistique et décide de poursuivre ses études d'architecture d'intérieur et de mobilier à l'Ecole Nationale Supérieure des Arts Décoratifs à Paris. Depuis son retour de France, Jiang Qiong Er se consacre à développer une expertise dans de nombreux domaines du design. Sa culture lui permet d'exercer son talent dans toute sa mesure. Elle exprime ses idées dans la conception de meubles, bijoux, peintures à l'encre de Chine, peinture à l'huile et dans la photographie. Son travail mêle techniques chinoises et occidentales, en toute harmonie. Ses créations sont une évolution moderne de l’histoire millénnaire de l’artisanat chinois. Par cette expérience multi culturelle Jiang Qiong Er a expérimenté de nombreux types d'arts, qui lui ont permis de comprendre la profondeur de la culture chinoise dans laquelle elle est enracinée. , elle découvre aujourd hui de nombreuses techniques traditionnelles, perpétuées par les artisans, qui ont permis à ceux-ci de créer des objets d'une grande beauté et d’une grande force. Ces découvertes renforcent le rêve qu’elle nourrit depuis ses études à l'université: propulser l’artisanat et le design chinois sur la scène mondiale."
@@ -181,6 +181,12 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "teaware" => "Le Thé",
     "homeware" => " La Maison",
     "furniture" => "Mobilier",
+
+    "SHANG XIA apparel" => "SHANG XIA Le Prêt-à-porter",
+    "SHANG XIA jewelry" => "SHANG XIA Le Bijou",
+    "SHANG XIA teaware" => "SHANG XIA Le Thé",
+    "SHANG XIA homeware" => "SHANG XIA La Maison",
+    "SHANG XIA furniture" => "SHANG XIA Mobilier",
     
     "other crafts" => "AUTRES ARTISANATS",
     
@@ -235,6 +241,11 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "NAME" => "NOM",
     "EMAIL" => "EMAIL",
     "MESSAGE" => "MESSAGE",
+
+    'Color' => 'couleur',
+    'Material' => 'Materiel',
+    'Size' => 'taille',
+    'Unit' => 'quantité',
     
     "contact_form_footer_tip" => 'Je souhaite recevoir la newsletter de SHANG XIA. Pour plus d\'informations, veuillez consulter notre politique de confidentialité. ',
  
@@ -260,10 +271,15 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "brand story" => "Histoire",
     
     "Gift Corner" => "Cadeaux",
+	"GIFT" => "CADEAUX",
     
     "Read more" => "Lire plus",
     
     "read more" => "Lire plus",
+
+    'View more' => 'Lire plus',
+
+    "similar products" => "produits similaires",
     
     'read' => 'Lire',
 
@@ -272,6 +288,8 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "SEND" => "ENVOYER",
     "Send" => "ENVOYER",
     "send" => "ENVOYER",
+
+	"I Want To Buy" => "Je Souhaite L'acheter",
 
     "ICP LICENCE" => ' ',
     
