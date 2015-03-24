@@ -242,10 +242,10 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "EMAIL" => "EMAIL",
     "MESSAGE" => "MESSAGE",
 
-    'Color' => 'couleur',
+    'Color' => 'Couleur',
     'Material' => 'Materiel',
-    'Size' => 'taille',
-    'Unit' => 'quantité',
+    'Size' => 'Taille',
+    'Unit' => 'Quantité',
     
     "contact_form_footer_tip" => 'Je souhaite recevoir la newsletter de SHANG XIA. Pour plus d\'informations, veuillez consulter notre politique de confidentialité. ',
  
