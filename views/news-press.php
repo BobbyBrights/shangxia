@@ -21,9 +21,9 @@ include_once 'common/header.php';?>
           <?php $years = loadPressYears();?>
 					<div class="newsoldertime intoview-effect" data-effect="fadeup">
 						<ul class="slidetab">
-            				<?php foreach ($years as $index =>  $year): ?>
-              				<li data-year="<?php echo $year["year"]?>" class="<?php if ($index == count($years)-1) echo "on"?>"><?php echo $year["year"]?></li>
-            				<?php endforeach;?>
+            <?php foreach ($years as $index =>  $year): ?>
+              <li data-year="<?php echo $year["year"]?>" class="<?php if ($index == count($years)-1) echo "on"?>"><?php echo $year["year"]?></li>
+            <?php endforeach;?>
             			</ul>
 					</div>
 
@@ -38,7 +38,6 @@ include_once 'common/header.php';?>
 					<!--  -->
 				</div>
 			</div>
-
 		</div>
 		<!--  -->
 <?php include_once 'common/footer.php';?>

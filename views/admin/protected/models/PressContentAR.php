@@ -62,7 +62,8 @@ class PressContentAR extends ContentAR {
   }
   
   public function getListWithYear($year, $page = 1, $limit = 16) {
-    $sql = ' select content.* from content left join field on field.cid = content.cid and field.field_name="publish_date"   where type="press" and (field.field_content) like "%'.$year.'%" ';
+    global $language;
+    $sql = ' select content.* from content left join field on field.cid = content.cid and field.field_name="publish_date"   where language = "'.$language.'" and type="press" and (field.field_content) like "%'.$year.'%" ';
     
     $sql .= " ORDER BY field_content ";
     $offset = ($page - 1) * $limit;
@@ -78,7 +79,6 @@ class PressContentAR extends ContentAR {
     
     $query = new CDbCriteria();
     $query->addInCondition("cid", $cids);
-    global $language;
     $query->addCondition("language=:language");
     $query->addCondition("type=:type");
     $query->params[":language"] = $language;

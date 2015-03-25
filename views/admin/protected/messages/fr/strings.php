@@ -246,6 +246,9 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     'Material' => 'Materiel',
     'Size' => 'Taille',
     'Unit' => 'Quantité',
+
+    "shang xia gift corner" => "LES CADEAUX SHANG XIA",
+    "gift_corner_desc" => "Les produits ci-dessous sont disponibles dans nos boutiques. Des cadeaux idéaux à offrir aux personnes qui vous sont chères.Vous pouvez sélectionner les produits qui vous intéressent puis nous faire parvenir vos coordonnées. Vous recevrez alors un appel de notre équipe afin de vous faire livrer vos cadeaux.",
     
     "contact_form_footer_tip" => 'Je souhaite recevoir la newsletter de SHANG XIA. Pour plus d\'informations, veuillez consulter notre politique de confidentialité. ',
  
