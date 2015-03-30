@@ -112,31 +112,34 @@ $pagename = 'product-detail';
     <?php endif;?>
 		<!-- collpiclist -->
 
+	<?php $similarProducts = loadSimilarProducts($product); ?>
 
-	<div class="collpiclist cs-clear" style="position:relative">
-		<div class="section">
-			<div class="products ">
-				<div class="productstit ">
-					<h2><?php echo Yii::t("strings", "similar products")?></h2>
-				</div>
-				<!--  -->
-				<div class="products-wrap js-horizontal-slide intoview-effect" data-effect="fadeup" data-num="3">
-					<div class="collarrows collarrowsprev" data-a="collarrowsprev"></div>
-					<div class="slide-con">
-						<ul class="slide-con-inner piclist cs-clear">
-							<?php foreach (loadSimilarProducts($product) as $index => $p): ?>
-			                <li class="piclistitem collpicitem intoview-effect" data-effect="fadeup">
-			                  	<a data-a="nav-link" href="<?php echo url("product-detail", array("cid" => $p->cid)) ?>"><img <?php if ($index > 3) echo "data-nopreload"?> src="<?php echo makeThumbnail($p->thumbnail, array(600, 570))?>" width="100%" />
-			                  		<p><span class="collicon"><?php echo $p->title?></span></p>
-			                	</a> 
-			                </li>
-            	<?php endforeach;?>
-						</ul>
+	<?php if (count($similarProducts) > 0): ?>
+		<div class="collpiclist cs-clear" style="position:relative">
+			<div class="section">
+				<div class="products ">
+					<div class="productstit ">
+						<h2><?php echo Yii::t("strings", "similar products")?></h2>
 					</div>
-					<div class="collarrows collarrowsnext" data-a="collarrowsnext"></div>
+					<!--  -->
+					<div class="products-wrap js-horizontal-slide intoview-effect" data-effect="fadeup" data-num="3">
+						<div class="collarrows collarrowsprev" data-a="collarrowsprev"></div>
+						<div class="slide-con">
+							<ul class="slide-con-inner piclist cs-clear">
+								<?php foreach ($similarProducts as $index => $p): ?>
+				                <li class="piclistitem collpicitem intoview-effect" data-effect="fadeup">
+				                  	<a data-a="nav-link" href="<?php echo url("product-detail", array("cid" => $p->cid)) ?>"><img <?php if ($index > 3) echo "data-nopreload"?> src="<?php echo makeThumbnail($p->thumbnail, array(600, 570))?>" width="100%" />
+				                  		<p><span class="collicon"><?php echo $p->title?></span></p>
+				                	</a> 
+				                </li>
+	            	<?php endforeach;?>
+							</ul>
+						</div>
+						<div class="collarrows collarrowsnext" data-a="collarrowsnext"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	<?php endif;?>
 
 <?php include_once 'common/footer.php';?>
