@@ -91,7 +91,7 @@ class BuyContentAR extends ContentAR {
     }
 
 
-    $mail->SetFrom('jackey@berule.com');
+    $mail->SetFrom('Shangxia.SH1@shang-xia.com');
     $mail->AddAddress($to, "");
     $mail->Subject = "Want to buy";
     $html = "<h4> Who want to buy</h5> <br /> name: {$username} <br \> phone: {$phone} <br \> type: {$productType} <br \> Product: {$pname} <br /> Link: {$plink} <br />";
