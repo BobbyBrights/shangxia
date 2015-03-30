@@ -296,8 +296,6 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
 
     "ICP LICENCE" => ' ',
     
-    "gift_corner_desc" => "<p>The products below are available in out boutiques. They are great gifts for your beloved ones. <br />Please select the products you would be interested in, and give us your contact information. You will then receive a personal call from someone at Shang Xia who will help you bare your gift delivered</p>",
-
     "Please agree the privacy and policy" => "S'il vous plaît accepter la politique et la vie privée",
 
     "privacy_desc" => "<p>SHANGXIA Trading (Shanghai) Co., Ltd. (“Nous”)a conscience de l’importance de la protection de votre vie privée. Veuillez lire les informations suivantes pour plus de détails. </p>
