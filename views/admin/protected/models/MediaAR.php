@@ -312,7 +312,8 @@ class MediaAR extends CActiveRecord {
 
     if ($h == "auto") {
       $r2 = $r1;
-      $h = $s_h * $r2;
+      $wantH = $s_h * $r2;
+      $h = $wantH;
     }
     else {
       $r2 = round($h / $s_h, 2);

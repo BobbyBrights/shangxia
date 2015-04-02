@@ -157,7 +157,6 @@
 		<p><?php echo Yii::t("strings", "Let us contact you back and we will arrange a way to provide you with this product")?></p>
 		<form class="buy-form conformbox" action="/admin/api/content/wantobuy" method="post">
 			<input type="hidden" name="product" value="#[product]"/>
-			<div class="conformtit" style="height:40px;"><span class="error" id="name-tip">&nbsp;</span></div>
 			<input type="text" placeholder="<?php echo Yii::t("strings", "Name") ?>" name="name" data-required="<?php echo Yii::t('strings', 'IS REQUIRED')?>"/>
 			<div class="conformtit" style="height:40px;"><span class="error" id="email-tip">&nbsp;</span></div>
 			<input type="text" placeholder="<?php echo Yii::t("strings", "Email") ?>" name="email" data-required="<?php echo Yii::t('strings', 'IS REQUIRED')?>"/>

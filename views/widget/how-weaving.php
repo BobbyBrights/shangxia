@@ -1,10 +1,10 @@
 <div class="section">
-	<div class="knowhow w-knowhow">
+	<div class="knowhow w-knowhow knowhow-weaving">
 		<div class="knowhowtit intoview-effect" data-effect="fadeup">
 			<h2><?php echo Yii::t("strings", "KNOW - HOW")?></h2>
 		</div>
 		<div class="knowhowcom ">
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-1 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Silk-like Bamboo Strands")?></p>
@@ -18,7 +18,7 @@
 				</div>
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/how-weaving1.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-2 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Collecting the Bamboo")?></p>
@@ -32,7 +32,7 @@
 				</div>
 				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/how-weaving2.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-3 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Scraping the Cyan <br/>(Bamboo Skin)")?></p>
@@ -47,7 +47,7 @@
 
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/how-weaving3.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-4 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Separating <br/>the Bamboo")?></p>
@@ -61,7 +61,7 @@
 				</div>
 				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/how-weaving4.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-5 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Drying the Slice")?></p>
@@ -75,7 +75,7 @@
 				</div>
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/how-weaving5.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-6 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Separating Strands")?></p>

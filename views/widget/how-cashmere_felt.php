@@ -1,10 +1,10 @@
 <div class="section">
-	<div class="knowhow cf-knowhow">
+	<div class="knowhow cf-knowhow knowhow-cashmere_felt">
 		<div class="knowhowtit intoview-effect" data-effect="fadeup">
 			<h2><?php echo Yii::t("strings", "KNOW - HOW")?></h2>
 		</div>
 		<div class="knowhowcom ">
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-1 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Gathering")?></p>
@@ -18,7 +18,7 @@
 				</div>
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/how-felt1.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-2 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Selecting <br>the cashmere")?></p>
@@ -32,7 +32,7 @@
 				</div>
 				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/how-felt2.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-3 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Combing")?> </p>
@@ -47,7 +47,7 @@
 
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/how-felt3.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-4 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "ROLLING THE FELT")?></p>
@@ -61,7 +61,7 @@
 				</div>
 				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/how-felt4.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-5 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "CREATING CLOTHING")?></p>
@@ -75,7 +75,7 @@
 				</div>
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/how-felt5.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-6 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "SHRINKING THE CLOTHING")?></p>

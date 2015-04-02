@@ -166,7 +166,7 @@ img.slideitem{height: auto;}
 /*intro*/
 .intro{padding:20px 0px 0px;font-family: 'Gotham Book';}
 .introtxt{font-size: 24px;text-align: center;text-transform : uppercase;line-height: 38px;color:#4b3700;}
-.introbtn{font-size: 18px;border:#000 solid 1px;display: block;margin: 50px auto 0;text-align: center;width: 250px;height: 62px;line-height: 62px}
+.introbtn{font-size: 18px;border:#000 solid 1px;display: block;margin: 50px auto 0;text-align: center;width: 250px;height: 62px;line-height: 62px;  box-sizing: border-box;}
 
 /*piclist*/
 .piclist{padding: 0 0 80px;}
@@ -177,7 +177,7 @@ img.slideitem{height: auto;}
 .piclistitem p{padding-top:20px;background: white;position: relative;z-index: 1;}
 .piclistitem img:hover{opacity: 0.9;}
 
-.product-type-list .piclistitem {min-height:355px;}
+.product-type-list .piclistitem {min-height:355px;  margin-top: 0.9em !important;}
 .product-type-list .piclistitem img,.product-type-list .piclistitem p{display: block;-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;-ms-transition: all 0.2s linear;transition: all 0.2s linear;}
 .product-type-list .piclistitem:hover{padding-bottom: 0px;}
 .product-type-list .piclistitem:hover img,.product-type-list .piclistitem:hover p{margin:0;-moz-transform:translateY(-7px);-ms-transform:translateY(-7px);-webkit-transform:translateY(-7px);transform:translateY(-7px);}
@@ -191,7 +191,7 @@ img.slideitem{height: auto;}
 .location{padding:50px 0 0 ;margin: 50px 50px 0; background: white;}
 .range{background: url('../images/range.png') no-repeat top center;padding:40px 0 30px;}
 .rangetxt{text-align: center;color: #910000;font-family: 'Gotham Light';margin-top: 15px;}
-.rangebtn{font-size: 18px;border:#6c0e0e solid 1px;display: block;margin: 20px auto 0;text-align: center;width: 250px;height: 62px;line-height: 62px;color:#910000 !important;}
+.rangebtn{font-size: 18px;border:#6c0e0e solid 1px;display: block;margin: 20px auto 0;text-align: center;width: 250px;height: 62px;line-height: 62px;color:#910000 !important;  box-sizing: border-box;}
 .popup_qr img {width:50%;margin:0 auto;}
 
 /*store*/
@@ -249,13 +249,19 @@ img.slideitem{height: auto;}
 .knowhowR{float: right}
 .knowhowintro{position: relative; width: 32%;font-size:16px;text-align: center;font-family: Garamond ;color:#4b3700;overflow: hidden;}
 .knowhowintro p.eff{text-transform: uppercase;font-family: "Gotham Medium"; position: relative;-webkit-transition: margin 0.2s linear;-moz-transition: margin 0.2s linear;-o-transition: margin 0.2s linear;-ms-transition: margin 0.2s linear;transition: margin 0.2s linear;}
-.knowhowintro:hover p.eff{margin-top: -27px;text-transform: uppercase;}
-.knowhowintro:hover a{opacity: 1;filter:alpha(opacity=100);margin-top:5px;}
+.knowhowintro: p.eff{margin-top: -27px;text-transform: uppercase;}
 .knowhowintro a{font-size: 16px;opacity:0;filter:alpha(opacity=0);;position: absolute;top: 50%;margin-top: -22px;left:50%;margin-left:-50px; border:#000 solid 1px;text-align: center;width: 100px;height: 42px;line-height: 42px;font-family: Garamond;-webkit-transition: opacity,margin-top 0.2s linear;-moz-transition: opacity,margin-top 0.2s linear;-o-transition: opacity,margin-top 0.2s linear;-ms-transition: opacity,margin-top 0.2s linear;transition: opacity,margin-top 0.2s linear;}
+.knowhowintro a{opacity: 1;filter:alpha(opacity=100);margin-top:22px;}
+body.lang-en_us .knowhow-cashmere_felt .knowhowitem-2 .knowhowintro a {margin-top: 30px;}
+body.lang-en_us .knowhow-eggshell-porcelain .knowhowitem-1 .knowhowintro a {margin-top: 30px;}
+body.lang-en_us .knowhow-eggshell-porcelain .knowhowitem-5 .knowhowintro a {margin-top: 30px;}
+body.lang-en_us .knowhow-eggshell-porcelain .knowhowitem-6 .knowhowintro a {margin-top: 30px;}
+body.lang-en_us .knowhow-weaving .knowhowitem-3 .knowhowintro a {margin-top: 30px;}
+body.lang-en_us .knowhow-weaving .knowhowitem-4 .knowhowintro a {margin-top: 30px;}
 .knowhowpic{width: 67.7%;cursor: pointer;}
 .knowhowintro .inout-bg{background: #f9f4f4;opacity: 1;top:100%;}
-.knowhowpic.knowhowR{margin-left:10px;margin-right: -10px;}
-.knowhowpic.knowhowL{margin-right:10px;margin-left: -10px;}
+.knowhowpic.knowhowR{margin-left:13px;margin-right: -10px;}
+.knowhowpic.knowhowL{margin-right:13px;margin-left: -10px;}
 
 .craft-page .knowhowintro p.eff{font-family: "Gotham Medium";text-transform: uppercase;}
 
@@ -272,7 +278,7 @@ img.slideitem{height: auto;}
 .proinforpic{float: right;width: 66.4%;overflow: hidden;}
 .productscom{position: relative;font-family: "Gotham Book";}
 .productslist{padding:10px 0;}
-.prolistitem{text-transform : uppercase;float: left;width: 32.53%;margin-right: 0.8%;}
+.prolistitem{text-transform : uppercase;float: left;width: 32.53%;margin-right: 0.8%;margin-top: 2em !important;}
 .prolistitem img{display: block;margin: 0 0 10px;}
 .prolistitem p{background: #4b3700;color:#fff;padding:12px;font-size: 18px;text-align: center ;text-overflow: ellipsis;overflow: hidden;}
 .prolistitem p .date{font-family: garamond;}
@@ -320,7 +326,7 @@ img.slideitem{height: auto;}
 .pressitem p{background: #fff;color:#4b3700;}
 
 /*introparis*/
-.introparis{width: 75%;margin: 0 auto}
+.introparis{width: 75%;margin: 0 auto;margin-bottom: 50px;}
 .introparis h2{font-size: 30px;text-align: center;text-transform: uppercase;line-height: 45px;color:#4b3700;}
 .introparis p{font-family: Garamond; font-size: 18px;margin-bottom: 25px;text-align: center;}
 
@@ -371,7 +377,7 @@ img.slideitem{height: auto;}
 
 /*colllisticon*/
 .detail .colllisticon{background: url('../images/range.png') no-repeat top center;padding:70px 0 30px}
-.colllistbox p{height: 60px;}
+.colllistbox p{height: 60px;  padding: 20px 2em 0px 2em;}
 .colllistbox a{text-transform:none;font-size: 18px;border:#000 solid 1px;display: block;margin: 12px auto 0;text-align: center;width: 250px;height: 60px;line-height: 60px}
 .colllistbox .piclistitem{margin-bottom: 90px;}
 .colllistbox .piclist{padding: 0}

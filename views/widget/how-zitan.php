@@ -4,7 +4,7 @@
 			<h2><?php echo Yii::t("strings", "KNOW - HOW")?></h2>
 		</div>
 		<div class="knowhowcom ">
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-1 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Choice of timber")?></p>
@@ -18,7 +18,7 @@
 				</div>
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/zitan_1.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-2 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Drying")?></p>
@@ -32,7 +32,7 @@
 				</div>
 				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/zitan_2.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-3 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Construction")?> </p>
@@ -47,7 +47,7 @@
 
 				<div class="knowhowpic  knowhowR"><img data-a="show-pop" src="/photo/zitan_3.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-4 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowR inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Carving")?></p>
@@ -61,7 +61,7 @@
 				</div>
 				<div class="knowhowpic  knowhowL"><img data-a="show-pop" src="/photo/zitan_4.jpg" width="100%" /></div>
 			</div>
-			<div class="knowhowitem cs-clear intoview-effect" data-effect="fadeup">
+			<div class="knowhowitem knowhowitem-5 cs-clear intoview-effect" data-effect="fadeup">
 				<div class="knowhowintro  knowhowL inout-effect">
 					<span class="inout-bg"></span>
 					<p class="eff cwrap"><?php echo Yii::t("strings", "Polishing")?></p>

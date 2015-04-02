@@ -1802,7 +1802,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
 
 
     var popHelper = (function(){
-        var tpl ='<div class="ccccon"><div class="popshade"></div>\
+        var tpl ='<div class="cccon"><div class="popshade"></div>\
             <div class="pop">\
                 <a href="#" class="popclose" data-a="popclose"></a>\
                 <div class="popcon transition">#[con]</div>\

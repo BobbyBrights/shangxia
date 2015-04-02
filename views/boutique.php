@@ -16,15 +16,11 @@ include_once 'common/header.php';?>
 		<!-- detail -->
 		<div class="section intoview-effect" data-effect="fadeup">
 			<div class="detail cs-clear">
-				<div class="arrows arrows2 detailprev" data-a="page-prev" 
-					data-title="<?php echo boutique_pre_title($crtboutique)?>"
-					data-link="<?php echo boutique_pre_link($crtboutique)?>"></div>
+				<div class="arrows arrows2 detailprev" data-a="page-prev" data-title="<?php echo boutique_pre_title($crtboutique)?>"></div>
 				<div class=" detailcon">
 					<h2><?php echo $crtboutique->boutique_title?></h2>
 				</div>
-				<div class="arrows arrows2 detailnext" data-a="page-next" 
-					data-title="<?php echo boutique_next_title($crtboutique)?>"
-					data-link="<?php echo boutique_next_link($crtboutique)?>"></div>
+				<div class="arrows arrows2 detailnext" data-a="page-next" data-title="<?php echo boutique_next_title($crtboutique)?>"></div>
 			</div>
 		</div>
 		<!-- slide -->
@@ -64,7 +60,7 @@ include_once 'common/header.php';?>
 			        <?php if ($crtboutique->thumbnail_image): ?>
 			          <?php foreach ($crtboutique->thumbnail_image as $image): ?>
 			            <a class="parisitem intoview-effect" data-effect="fadeup">
-			              <img src="<?php echo $image?>" width="100%" alt="">
+			              <img src="<?php echo makeThumbnail($image, array(413, 301));?>" width="100%" alt="">
 			            </a>
 			          <?php endforeach;?>
 			        <?php endif;?>

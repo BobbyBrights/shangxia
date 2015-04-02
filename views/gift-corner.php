@@ -57,13 +57,13 @@ include_once 'common/header.php';?>
                   <textarea style="display:none;">
                   <?php echo CJavaScript::jsonEncode(array("name" => $gift->title, 
                       "pics" => $gift->product_slide_image, 
-                      "product" => $gift->cid, 
+                      "product" => $gift->cid,
                       "price" => $gift->price,
                       "color" => $gift->color,
                       "material" => $gift->material,
                       "size" => $gift->size,
                       "unit" => $gift->unit,
-                      "desc" => htmlspecialchars($gift->body)))?>
+                      "desc" => strip_tags($gift->body)))?>
                   </textarea>
                 </li>
               <?php if( $index % 3 == 0 ): ?>
