@@ -2193,6 +2193,14 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
     //     return false;
     // });
 
+    LP.action('nav-pop', function (data) {
+        var scrollTop =($(document).scrollTop() + $(this).parents('.head').offset()['top'] + "px");
+        console.log(scrollTop);
+        $('html, body').animate({scrollTop: scrollTop}, 500);
+    });
+
+
+
     LP.action('nav-link' , function(){
         if( isMobile ) return;
         if( $('html').hasClass('no-history') ) return;
