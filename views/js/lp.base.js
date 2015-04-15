@@ -440,6 +440,8 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                                 } , 500)
                                 .promise()
                                 .then(function(){
+                                    $('#home-slider').width($('#home-slider').width() - 1).width($('#home-slider').width()+ 1);
+
                                     $(this).find('.slidetip')
                                         .css('top' , 'auto')
                                         .animate({
@@ -2193,11 +2195,11 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
     //     return false;
     // });
 
-    LP.action('nav-pop', function (data) {
-        var scrollTop =($(document).scrollTop() + $(this).parents('.head').offset()['top'] + "px");
-        console.log(scrollTop);
-        $('html, body').animate({scrollTop: scrollTop}, 500);
-    });
+    //LP.action('nav-pop', function (data) {
+    //    var scrollTop =($(document).scrollTop() + $(this).parents('.head').offset()['top'] + "px");
+    //    console.log(scrollTop);
+    //    $('html, body').animate({scrollTop: scrollTop}, 500);
+    //});
 
 
 
@@ -2599,14 +2601,16 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                         $pop.find('.form-submit-tip')
                             .html( data.message )
                             .fadeIn();
+                        $pop.find('h3, p').hide();
                         $form.slideUp();
 
                         setTimeout(function(){
                             $pop.find('.popclose')[0].click();
+                            $pop.find('h3, p').show();
                         } , 3000);
                     } else {
                         $pop.find('.form-submit-tip')
-                            .html( data.message )
+                            .html( data.message );
                     }
                 }
             });

@@ -242,6 +242,14 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "EMAIL" => "EMAIL",
     "MESSAGE" => "MESSAGE",
 
+    "Name" => "Nom",
+    "Email" => "Email",
+    'Phone' => 'Téléphone',
+    "Message" => "Message",
+    'CONTACT ME BACK' => 'Me CONTACTER',
+    "Are you interested in buying this product?" => 'Etes vous intéressé par ce produit? ',
+    "Let us contact you back and we will arrange a way to provide you with this product" => 'Laissez-nous vous répondre et arranger un moyen pour vous faire parvenir ce produit',
+
     'Color' => 'Couleur',
     'Material' => 'Materiel',
     'Size' => 'Taille',
@@ -293,6 +301,14 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "send" => "ENVOYER",
 
 	"I Want To Buy" => "Je Souhaite L'acheter",
+
+    "To receive updates about SHANGXIA, <br/> please provide the following information" => 'Pour recevoir la newsletter Shang Xia <br />, merci de remplir les informations suivantes ',
+
+    "YOUR NAME" => "VOTRE NOM",
+
+    "YOUR EMAIL" => "VOTRE EMAIL",
+
+    "YOUR PHONE" => "VOTRE TÉLÉPHONE",
 
     "ICP LICENCE" => ' ',
     
@@ -352,5 +368,8 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     
     'HAND SCULPTURE CLOTHING desc short' => "<p>La collection « Sculpture » de SHANG XIA est composée de vêtements en feutre de cachemire, d'un seul tenant, faisant appel à une technique très particulière, plus proche de la sculpture que de la couture.    Les manteaux, les écharpes et les châles sont fabriqués non à partir de laine de mouton, mais de fibres de cachemire collectées sur les chèvres des hauts plateaux. Le feutre de cachemire employé est le résultat d'un long travail : les poils, récoltés sous forme d'amas de fibres à l'état brut, sont peignés, avant d'être assemblés par pression, puis pétris tous ensemble, ce qui permet aux fibres de s'amalgamer les unes aux autres. Elles se densifient, générant une étoffe très épaisse, d'un seul tenant. Celle-ci est alors à nouveau pressée, pour s'amincir et doubler de surface. C'est à partir de ces mètres de matière obtenus que seront découpées une à une et à la main toutes les pièces de feutre de cachemire.</p>",
     'HAND SCULPTURE CLOTHING desc' => "<p>La collection « Sculpture » de SHANG XIA est composée de vêtements en feutre de cachemire, d'un seul tenant, faisant appel à une technique très particulière, plus proche de la sculpture que de la couture.    Les manteaux, les écharpes et les châles sont fabriqués non à partir de laine de mouton, mais de fibres de cachemire collectées sur les chèvres des hauts plateaux. Le feutre de cachemire employé est le résultat d'un long travail : les poils, récoltés sous forme d'amas de fibres à l'état brut, sont peignés, avant d'être assemblés par pression, puis pétris tous ensemble, ce qui permet aux fibres de s'amalgamer les unes aux autres. Elles se densifient, générant une étoffe très épaisse, d'un seul tenant. Celle-ci est alors à nouveau pressée, pour s'amincir et doubler de surface. C'est à partir de ces mètres de matière obtenus que seront découpées une à une et à la main toutes les pièces de feutre de cachemire.</p>",
-    
+
+
+    'Your message has been successfully sent. We will contact you soon. Shang Xia' => 'Votre message a bien été envoyé. Nous vous contacterons très prochainement. Shang Xia',
+
     );

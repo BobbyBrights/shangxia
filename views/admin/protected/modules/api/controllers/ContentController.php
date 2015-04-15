@@ -253,9 +253,7 @@ class ContentController extends Controller {
    $buyAr->setIsNewRecord(true);
    
    if ($buyAr->save()) {
-     return $this->responseJSON(array(), Yii::t("strings" , "Your message has been successfully sent. We will contact you soon.
-
-<br />Shang Xia"));
+     return $this->responseJSON(array(), Yii::t("strings" , "Your message has been successfully sent. We will contact you soon. Shang Xia"));
    }
    else {
      $error = $buyAr->getErrors();

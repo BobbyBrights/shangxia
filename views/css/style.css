@@ -720,7 +720,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
     /*border-bottom: 1px black solid;*/
 }
 
-.form-submit-tip{display: none;font-size: 24px;font-family: "Gotham Book";text-transform: uppercase;text-align: center;height: 40px;margin-bottom: -40px;line-height: 200%;}
+.form-submit-tip{  height: 200px;margin-top:85px;display: none;font-size: 24px;font-family: "Gotham Book";text-transform: uppercase;text-align: center;margin-bottom: -40px;line-height: 120%;}
 
 .price{font-family: 'Gotham Light';}
 
@@ -1149,6 +1149,10 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
 .tablet body{
     font-size: 14px;
+}
+
+.lang-fr .detailcon {
+    font-family: "Garamond";
 }
 
 

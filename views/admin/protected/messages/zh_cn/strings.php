@@ -441,6 +441,7 @@ return array(
     "SHANG XIA furniture" => "「上下」家具",
     "NEWS DETAIL" => "新闻详情",
     '「SHANG XIA」' => '「上下」',
+    'Your message has been successfully sent. We will contact you soon. Shang Xia' => '您的消息已经成功发送,我们会尽快与您取得联系. SHANG XIA',
 );
 
 

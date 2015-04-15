@@ -36,8 +36,8 @@
 					<ul class="storechooselist cs-clear">
             <?php foreach ($cities as $city): ?>
             <li><a href="<?php echo url("boutique", array("type" => $city))?>"  title="" class="transition-wrap">
-                <span class="transition"><?php echo Yii::t("strings", "{city} boutique", array("{city}" => ucfirst($locations[$city])))?>
-                  <br/><br/><?php echo Yii::t("strings", "{city} boutique", array("{city}" => ucfirst($locations[$city])))?>
+                <span class="transition"><?php echo Yii::t("strings", "{city} boutique", array("{city}" => ucfirst(strtolower($locations[$city]))))?>
+                  <br/><br/><?php echo Yii::t("strings", "{city} boutique", array("{city}" => ucfirst(strtolower($locations[$city]))))?>
                 </span>
               </a>
             </li>
@@ -143,10 +143,10 @@
 		<div class="product-img-slide-num">1/1</div>
 		<div class="product-info-list">
 			<h3>#[name]</h3>
-			<p><label><?php echo Yii::t("strings", "Color") ?>: </label> #[color]</p>
-			<p><label><?php echo Yii::t("strings", "Material") ?>: </label> #[material]</p>
-			<p><label><?php echo Yii::t("strings", "Size") ?>: </label> #[size]</p>
-			<p><label><?php echo Yii::t("strings", "Unit") ?>: </label> #[unit]</p>
+			<p><label><?php echo Yii::t("strings", "Color") ?> : </label> #[color]</p>
+			<p><label><?php echo Yii::t("strings", "Material") ?> : </label> #[material]</p>
+			<p><label><?php echo Yii::t("strings", "Size") ?> : </label> #[size]</p>
+			<p><label><?php echo Yii::t("strings", "Unit") ?> : </label> #[unit]</p>
 			<br/>
 			<p><?php echo priceUnit()?> #[price]</p>
 		</div>
@@ -178,7 +178,7 @@ if( $map == 'google' ) {?>
 <script type="text/javascript" src="/js/sea/sea-debug.js" data-config="/js/config.js"></script>
 <script type="text/javascript" src="/js/sea/plugin-shim.js"></script>
 <script type="text/javascript" src="/js/lp.core.js"></script>
-<script type="text/javascript" src="/js/lp.base.js?a=111"></script>
+<script type="text/javascript" src="/js/lp.base.js?a=112"></script>
 
 </body>
 </html>

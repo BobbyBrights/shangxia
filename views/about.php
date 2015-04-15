@@ -4,16 +4,12 @@ include_once 'common/header.php';?>
 		<!-- detail -->
 		<div class="section intoview-effect" data-effect="fadeup">
 			<div class="detail cs-clear">
-				<a href="/news" class="arrows arrows2 detailprev" data-a="nav-link" 
-					data-title="<?php echo Yii::t('strings', 'NEWS')?>"
-					data-link="/news"></a>
+				<a href="/news" class="arrows arrows2 detailprev" data-a="nav-link" data-title="<?php echo Yii::t('strings', 'NEWS')?>"></a>
 				<!-- <div class="arrows arrows2 detailprev" data-a="page-prev"></div> -->
 				<div class=" detailcon">
 					<h2><?php echo Yii::t("strings", "about SHANG XIA")?></h2>
 				</div>
-				<a href="/contact" class="arrows arrows2 detailnext" data-a="nav-link" 
-					data-title="<?php echo Yii::t('strings', 'CONTACT')?>"
-					data-link="/news"></a>
+				<a href="/contact" class="arrows arrows2 detailnext" data-a="nav-link" data-title="<?php echo Yii::t('strings', 'CONTACT')?>"></a>
 				<!-- <div class="arrows arrows2 detailnext" data-a="page-next"></div> -->
 			</div>
 		</div>
@@ -155,11 +151,11 @@ include_once 'common/header.php';?>
                           </div>
                           <a href="mailto:hr@shang-xia.com" class="btn popaboutbtn transition-wrap" ><span class="transition"><?php echo Yii::t("strings", "Apply")?><br><br><?php echo Yii::t("strings", "Apply")?></span></a>
                           <div class="popshare cs-clear">
-                            <a href="#" class="popsharef"></a>
-                            <a href="#" class="popsharet"></a>
-                            <a href="#" class="popsharein"></a>
-                            <a href="#" class="popsharewb"></a>
-                            <a href="#" class="popsharewx"></a>
+                            <a href="#" style="display:none" class="popsharef"></a>
+                            <a target="_blank" href="http://twitter.com/intent/tweet?url=http://shang-xia.com/about&text=<?php echo urlencode('SHANG XIA | JOBS | '.$job->title)?>" class="popsharet"></a>
+                            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&title=<?php echo urlencode('SHANG XIA | JOBS | '.$job->title)?>&summary=&source=&url=http://shang-xia.com/about" class="popsharein"></a>
+                            <a target="_blank" href="http://service.weibo.com/share/share.php?url=http://shang-xia.com/about&appkey=&title=<?php echo urlencode('SHANG XIA | JOBS | '.$job->title)?>&pic=&ralateUid=&language=" class="popsharewb"></a>
+                            <a href="#" style="display:none" class="popsharewx"></a>
                           </div>
                         </div>
                     </textarea>
