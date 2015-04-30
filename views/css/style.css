@@ -118,6 +118,8 @@ a{text-decoration:none;outline: none;color:inherit;}
 .nav li a{position: relative;z-index: 1;}
 .logo{width: 6%;position: absolute;margin-left:-3%;left:50%;}
 .logo a{width: 50px;height: 65px;display: block;background: url('../images/logo.png') no-repeat;margin: 0 auto}
+.logosmall{width: 6%;position: absolute;margin-left:-3%;left:50%;  margin-bottom: 20px;bottom: 0;display: none;}
+.logosmall a{width: 35px;height: 45px;display: block;background: url('../images/logosmall.png') no-repeat;margin: 0 auto}
 .hd_oter{position: absolute;top:47px;right: -4%;width: 140px;}
 .hd_language{float: left;font-family: "gotham light"}
 .hd_language a{padding:0 7px;}
@@ -625,8 +627,8 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .normalbox .slideitem .prolistitem {width: 100%;}
 
 .related-product {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 10px;
 }
 
 .related-product h2 {

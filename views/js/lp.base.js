@@ -479,7 +479,13 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 loadingMgr.process( index , total , function( percent ){
                     if( !startAnimate && percent > 0.7 ){
                         startAnimate = true;
+                        $(window).scrollTop(0);
+                        //transform
                         var $cloneHeader = $('.head-inner-wrap').clone()
+                            .find('.logo').show()
+                            .end()
+                            .find('.logosmall').hide()
+                            .end()
                             .appendTo( $('.loading-wrap') )
                             .css({
                                 marginTop: -63,
@@ -676,7 +682,18 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                     percentOff = Math.max( percentOff , 0 );
                     percentOff = Math.min( percentOff , 48 );
                     $('.head-inner').css('padding' , 24 - (percentOff) / 2 + 'px 0' );
-                    var scale = 'scale(' + ( ( 1 - ( percentOff ) / 48 ) * 0.3 + 0.7 ) + ')';
+                    var scale =  ( ( 1 - ( percentOff ) / 48 ) * 0.3 + 0.7 );
+
+                    //scale= parseInt(scale * 10)/10;
+
+                    if(scale == 0.7){
+                        $('.head .logo').hide();
+                        $('.head .logosmall').show();
+                    }else{
+                        $('.head .logo').show();
+                        $('.head .logosmall').hide();
+                    }
+                    scale = 'scale(' + scale + ')';
                     $('.logo').css({
                         'transform' : scale,
                         '-webkit-transform' : scale,
@@ -1941,12 +1958,22 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
 
             $('.proinfortxt').each(function(){
                 var h = $(this).siblings('.proinforpic').height();
+
                 $(this).height( h );
+                console.log($('.related-product h2').height());
+                console.log(parseFloat($('.related-product p').css('line-height')));
+
+                var txtLeightPif= parseInt((h-$('.related-product h2').height()-20)/parseFloat($('.related-product p').css('line-height')))*parseFloat($('.related-product p').css('line-height')) - 290;
+                if (txtLeightPif < ($('.related-product h2').height() + 20 + parseFloat($('.related-product p').css('line-height')))){
+                    txtLeightPif = ($('.related-product h2').height() + 20 + parseFloat($('.related-product p').css('line-height')));
+                }
+                console.log(txtLeightPif);
+                console.log(h);
                 $(this).find('.proinfortxt-inner')
                     .css({
-                        marginBottom: 30,
+                        marginBottom: 50,
                         overflow: 'hidden',
-                        height: h - 220
+                        height: txtLeightPif+5
                     });
             });
 

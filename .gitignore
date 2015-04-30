@@ -13,3 +13,5 @@ views/admin/protected/cache
 views/admin/protected/runtime
 
 .DS_Store
+
+.idea
