@@ -441,6 +441,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                                 .promise()
                                 .then(function(){
                                     $('#home-slider').width($('#home-slider').width() - 1).width($('#home-slider').width()+ 1);
+                                    $('#home-slider').css('width', '100%');
 
                                     $(this).find('.slidetip')
                                         .css('top' , 'auto')
@@ -1933,6 +1934,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                     // fix image size
                     fixImageToWrap( $(this) , $(this).find('img') );
                 });
+
         }
         
 
