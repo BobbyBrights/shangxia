@@ -1093,6 +1093,16 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
 
 
             $slidetabs.click(function(){
+                clearInterval( $wrap.data('interval') );
+                $wrap.data('interval' , setInterval(function(){
+                    if( new Date() - start_time < 4000 ) return;
+                    var $next = $slidetabs.filter('.on').next();
+                    if( $next.length ){
+                        $next.trigger('click');
+                    } else {
+                        $slidetabs.eq(0).trigger('click');
+                    }
+                } , 5000) );
 
                 if( $(this).hasClass('on') ) return false;
                 if( $slidebox.find('.video-wrap').length ){
@@ -1960,15 +1970,25 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 var h = $(this).siblings('.proinforpic').height();
 
                 $(this).height( h );
-                console.log($('.related-product h2').height());
-                console.log(parseFloat($('.related-product p').css('line-height')));
 
-                var txtLeightPif= parseInt((h-$('.related-product h2').height()-20)/parseFloat($('.related-product p').css('line-height')))*parseFloat($('.related-product p').css('line-height')) - 290;
-                if (txtLeightPif < ($('.related-product h2').height() + 20 + parseFloat($('.related-product p').css('line-height')))){
-                    txtLeightPif = ($('.related-product h2').height() + 20 + parseFloat($('.related-product p').css('line-height')));
+                var txtLeightPif=0;
+                if($('.proinfortxt h2').height()){
+console.log('h2');
+                    txtLeightPif= parseInt((h-$('.proinfortxt h2').height()-20)/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
+                    if (txtLeightPif < ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')))){
+                        txtLeightPif = ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')));
+                    }
                 }
-                console.log(txtLeightPif);
-                console.log(h);
+                else{
+                    console.log(h);
+                    console.log('no h2');
+                    txtLeightPif= parseInt(h/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
+                    console.log(txtLeightPif);
+                    if (txtLeightPif < (parseFloat($('.proinfortxt p').css('line-height')))){
+                        txtLeightPif = (parseFloat($('.proinfortxt p').css('line-height')));
+                    }
+                    console.log(txtLeightPif);
+                }
                 $(this).find('.proinfortxt-inner')
                     .css({
                         marginBottom: 50,

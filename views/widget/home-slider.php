@@ -1,6 +1,6 @@
 <!-- slide -->
 <div id="home-slider">
-	<div class="slide">
+	<div class="slide"  data-slide="absolute" >
     <?php $slideshow = loadContentList("slideShow"); ?>
 		<ul class="slidebox cs-clear">
       <?php foreach ($slideshow as $show): ?>

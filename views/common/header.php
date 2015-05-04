@@ -36,16 +36,16 @@ require_once "inc.php";?>
 					<div class="head-inner cs-clear">
             <a href="javascript:;" class="m-el m-nav" data-a="m-nav"></a>
 						<ul class="nav nav1">
-							<li data-type="collections"><a data-a="nav-pop" data-d="type=collections" href="javascript:;"><?php echo Yii::t("strings", "COLLECTIONS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-							<li data-type="crafts"><a data-a="nav-pop" data-d="type=crafts" href="javascript:;"><?php echo Yii::t("strings", "CRAFTS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-							<li data-type="boutiques"><a data-a="nav-pop" data-d="type=boutiques" href="javascript:;"><?php echo Yii::t("strings", "BOUTIQUES")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-              <li class="last"><a data-a="nav-link" data-d="type=gift" href="<?php echo url("gift-corner")?>"><?php echo Yii::t("strings", "GIFT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
+							<li data-type="collections"><a data-a="nav-pop" data-d="type=collections" href="javascript:;"><?php echo Yii::t("strings", "COLLECTIONS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li data-type="crafts"><a data-a="nav-pop" data-d="type=crafts" href="javascript:;"><?php echo Yii::t("strings", "CRAFTS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li data-type="boutiques"><a data-a="nav-pop" data-d="type=boutiques" href="javascript:;"><?php echo Yii::t("strings", "BOUTIQUES")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+              <li class="last"><a data-a="nav-link" data-d="type=gift" href="<?php echo url("gift-corner")?>"><?php echo Yii::t("strings", "GIFT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
 						</ul>
 			      <h1 class="logo"><a data-a="nav-link" href='/' onclick="javascript:window.location.href='/'"></a></h1>
                   <h1 class="logosmall"><a data-a="nav-link" href='/' onclick="javascript:window.location.href='/'"></a></h1>
 						<ul class="nav nav2">
-							<li><a data-a="nav-link" href="<?php echo url("news")?>"><?php echo Yii::t("strings", "NEWS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-							<li><a data-a="nav-link" href="<?php echo url("about")?>"><?php echo Yii::t("strings", "ABOUT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
+							<li><a data-a="nav-link" href="<?php echo url("news")?>"><?php echo Yii::t("strings", "NEWS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li><a data-a="nav-link" href="<?php echo url("about")?>"><?php echo Yii::t("strings", "ABOUT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
 							<li class="last"><a data-a="nav-link" href="<?php echo url("contact")?>"><?php echo Yii::t("strings", "CONTACT")?></a></li>
 						</ul>
 						<!--  -->
