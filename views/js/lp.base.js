@@ -971,9 +971,18 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
 
         // nav-pop-item inout-effect
         $('.nav-pop-item.inout-effect').hover(function(){
-            $(this).find('span:not(.inout-bg)').stop(true , true).fadeOut(700);
+
+            if($(this).data("order")=="Reverse"){
+                $(this).find('span:not(.inout-bg)').stop(true , true ).fadeIn(700);
+            }else{
+                $(this).find('span:not(.inout-bg)').stop(true , true).fadeOut(700);
+            }
         } , function(){
-            $(this).find('span:not(.inout-bg)').stop(true , true ).fadeIn(700);
+            if($(this).data("order")=="Reverse"){
+                $(this).find('span:not(.inout-bg)').stop(true , true).fadeOut(700);
+            }else{
+                $(this).find('span:not(.inout-bg)').stop(true , true ).fadeIn(700);
+            }
         });
         
 
@@ -1577,96 +1586,116 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
         var isInNav = !!$bg.closest('.nav-pop-inner').length;
         $dom.css('position','relative');
 
-        $dom.hover(function( ev ){
-            var width = $dom.width();
-            var height = $dom.height();
+        if($dom.data("order")=="Reverse"){
+            $bg.css( {left:0 , top: 0, opacity:0} );
+            $dom.find('.nav-text').hide();
+        }
 
-            var off = $dom.offset();
-            var topOff = ev.pageY - off.top;
-            var leftOff = ev.pageX - off.left;
-            var bottomOff = height + off.top - ev.pageY;
-            var rightOff = width + off.left - ev.pageX;
+        $dom.hover(function( ev )
+        {
+            //var width = $dom.width();
+            //var height = $dom.height();
+            //
+            //var off = $dom.offset();
+            //var topOff = ev.pageY - off.top;
+            //var leftOff = ev.pageX - off.left;
+            //var bottomOff = height + off.top - ev.pageY;
+            //var rightOff = width + off.left - ev.pageX;
+            //
+            //var min = Math.min( topOff , leftOff , bottomOff , rightOff );
+            //var ori = null;
+            //var tar = null;
+            //if( !isInNav ){
+            //    if( min == topOff ){ // from top
+            //        ori = { left: 0,top: '-100%'};
+            //        tar = { top: 0 };
+            //    } else if( min == leftOff ){
+            //        ori = { left: '-100%',top: 0};
+            //        tar = { left: 0 };
+            //    } else if( min == bottomOff ){
+            //        ori = { left: 0,top: '100%'};
+            //        tar = { top: 0 };
+            //    } else {
+            //        ori = { left: '100%',top: 0};
+            //        tar = { left: 0 };
+            //    }
+            //} else {
+            //    ori = {left:0 , top: 0};
+            //
+            //    if( min == topOff ){ // from top
+            //        tar = { top: '100%' };
+            //    } else if( min == leftOff ){
+            //        tar = { left: '100%' };
+            //    } else if( min == bottomOff ){
+            //        tar = { top: '-100%' };
+            //    } else {
+            //        tar = { left: '-100%' };
+            //    }
+            //}
 
-            var min = Math.min( topOff , leftOff , bottomOff , rightOff );
-            var ori = null;
-            var tar = null;
-            if( !isInNav ){
-                if( min == topOff ){ // from top 
-                    ori = { left: 0,top: '-100%'};
-                    tar = { top: 0 };
-                } else if( min == leftOff ){
-                    ori = { left: '-100%',top: 0};
-                    tar = { left: 0 };
-                } else if( min == bottomOff ){
-                    ori = { left: 0,top: '100%'};
-                    tar = { top: 0 };
-                } else {
-                    ori = { left: '100%',top: 0};
-                    tar = { left: 0 };
-                }
-            } else {
-                ori = {left:0 , top: 0};
-
-                if( min == topOff ){ // from top 
-                    tar = { top: '100%' };
-                } else if( min == leftOff ){
-                    tar = { left: '100%' };
-                } else if( min == bottomOff ){
-                    tar = { top: '-100%' };
-                } else {
-                    tar = { left: '-100%' };
-                }
+            var ori = {left:0 , top: 0, opacity:0.5};
+            var tar = { opacity:0};
+            if($dom.data("order")=="Reverse"){
+                ori = {left:0 , top: 0, opacity:0};
+                tar = { opacity:0.5};
             }
-            
             $bg.css( ori ).stop( true )
                 .animate( tar , 500 );
 
             hoverin && hoverin();
-        } , function( ev ){
-            var width = $dom.width();
-            var height = $dom.height();
+        } , function( ev )
+        {
+            //var width = $dom.width();
+            //var height = $dom.height();
+            //
+            //var off = $dom.offset();
+            //var topOff = ev.pageY - off.top;
+            //var leftOff = ev.pageX - off.left;
+            //var bottomOff = height + off.top - ev.pageY;
+            //var rightOff = width + off.left - ev.pageX;
+            //
+            //var min = Math.min( topOff , leftOff , bottomOff , rightOff );
+            //var ori = null;
+            //var tar = null;
+            //if( !isInNav ){
+            //    if( min == topOff ){ // from top
+            //        ori = { left: 0,top: '-100%'};
+            //        tar = { top: 0 };
+            //    } else if( min == leftOff ){
+            //        ori = { left: '-100%',top: 0};
+            //        tar = { left: 0 };
+            //    } else if( min == bottomOff ){
+            //        ori = { left: 0,top: '100%'};
+            //        tar = { top: 0 };
+            //    } else {
+            //        ori = { left: '100%',top: 0};
+            //        tar = { left: 0 };
+            //    }
+            //    $bg.stop( true )
+            //        .animate( tar , 500 );
+            //} else {
+            //    tar = { top: 0 , left: 0};
+            //    if( min == topOff ){ // from top
+            //        ori = { left: 0,top: '100%'};
+            //    } else if( min == leftOff ){
+            //        ori = { left: '100%',top: 0};
+            //    } else if( min == bottomOff ){
+            //        ori = { left: 0,top: '-100%'};
+            //    } else {
+            //        ori = { left: '-100%',top: 0};
+            //    }
 
-            var off = $dom.offset();
-            var topOff = ev.pageY - off.top;
-            var leftOff = ev.pageX - off.left;
-            var bottomOff = height + off.top - ev.pageY;
-            var rightOff = width + off.left - ev.pageX;
-
-            var min = Math.min( topOff , leftOff , bottomOff , rightOff );
-            var ori = null;
-            var tar = null;
-            if( !isInNav ){
-                if( min == topOff ){ // from top 
-                    ori = { left: 0,top: '-100%'};
-                    tar = { top: 0 };
-                } else if( min == leftOff ){
-                    ori = { left: '-100%',top: 0};
-                    tar = { left: 0 };
-                } else if( min == bottomOff ){
-                    ori = { left: 0,top: '100%'};
-                    tar = { top: 0 };
-                } else {
-                    ori = { left: '100%',top: 0};
-                    tar = { left: 0 };
-                }
-                $bg.stop( true )
-                    .animate( tar , 500 );
-            } else {
-                tar = { top: 0 , left: 0};
-                if( min == topOff ){ // from top 
-                    ori = { left: 0,top: '100%'};
-                } else if( min == leftOff ){
-                    ori = { left: '100%',top: 0};
-                } else if( min == bottomOff ){
-                    ori = { left: 0,top: '-100%'};
-                } else {
-                    ori = { left: '-100%',top: 0};
+                var ori = {left:0 , top: 0, opacity:0};
+                var tar = { opacity:0.5};
+                if($dom.data("order")=="Reverse"){
+                    ori = {left:0 , top: 0, opacity:0.5};
+                    tar = { opacity:0};
                 }
                 $bg.stop( true )
                     .css(ori)
                     .animate( tar , 500 );
-            }
-            
+            //}
+
 
             hoverout && hoverout();
         });

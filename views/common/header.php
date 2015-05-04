@@ -45,7 +45,7 @@ require_once "inc.php";?>
                   <h1 class="logosmall"><a data-a="nav-link" href='/' onclick="javascript:window.location.href='/'"></a></h1>
 						<ul class="nav nav2">
 							<li><a data-a="nav-link" href="<?php echo url("news")?>"><?php echo Yii::t("strings", "NEWS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
-							<li><a data-a="nav-link" href="<?php echo url("about")?>"><?php echo Yii::t("strings", "ABOUT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li><a data-a="nav-link" href="<?php echo url("about")?>"><?php echo Yii::t("strings", "ABOUT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></li>
 							<li class="last"><a data-a="nav-link" href="<?php echo url("contact")?>"><?php echo Yii::t("strings", "CONTACT")?></a></li>
 						</ul>
 						<!--  -->
@@ -130,7 +130,7 @@ require_once "inc.php";?>
 					<div class="nav-pop-inner">
             <?php $crafts = CraftContentAR::model()->getList();?>
             <?php foreach($crafts as $craft): ?>
-            <a class="nav-pop-item inout-effect" data-a="nav-link" href="<?php echo url("craft", array("cid" => $craft->cid))?>">
+            <a class="nav-pop-item inout-effect" data-a="nav-link" href="<?php echo url("craft", array("cid" => $craft->cid))?>" data-order="Reverse">
             	<img src="<?php echo $craft->nav_image?>"/>
             	<span class="nav-text"><i><?php echo $craft->title?></i></span>
             	<span class="home-inout-bg inout-bg"></span>
@@ -145,7 +145,7 @@ require_once "inc.php";?>
             <?php foreach (BoutiqueContentAR::getLocation() as $key => $name): ?>
               <?php $boutique = BoutiqueContentAR::model()->loadByAddressKey($key);?>
               <?php if ($boutique): ?>
-                <a class="nav-pop-item inout-effect" <?php if ($first) echo 'style="margin-left: 12%;"'?> data-a="nav-link" href="<?php echo url("boutique", array("type" => urlencode($key)))?>">
+                <a class="nav-pop-item inout-effect" <?php if ($first) echo 'style="margin-left: 12%;"'?> data-a="nav-link" href="<?php echo url("boutique", array("type" => urlencode($key)))?>" data-order="Reverse">
                 	<img src="<?php echo ($boutique->nav_image) ?>"/>
                 	<span class="nav-text"><i><?php echo $name?></i></span>
                 	<span class="home-inout-bg inout-bg"></span>
