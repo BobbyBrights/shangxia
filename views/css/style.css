@@ -74,11 +74,11 @@ form{margin: 0;padding: 0;}
 sup{font-size: 0.5em;}
 body {
     outline: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
 }
 input,textarea,button{outline: none;}
 /* Base Used
@@ -551,7 +551,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
 .nav-bg{position: absolute;bottom: 0;display: none;z-index: 0;margin-left: -250%;left: 50%;width: 500%;}
 .active .nav-bg{display: block;}
-.nav-mask{position: absolute;bottom: 0;display: none;z-index: 0;margin-left: -25%;width: 150%;height: 37px;background: #ffffff;}
+.active .nav-mask{position: absolute;bottom: 0;display: none;z-index: 0;margin-left: -25%;width: 150%;height: 37px;background: #ffffff;}
 .active .nav-mask{display: block;}
 /*.active-crafts .nav-bg{left:-40%;}
 .active-boutiques .nav-bg{left:-24%;}
@@ -1047,7 +1047,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
     /* news */
     .news-picinfortxt,.picinfortxt{width: 100%;}
-    .news-picinfortxt{margin-top: 20px;}
+    .news-picinfortxt{margin-top: 25px;}
     .picinforpic{width: 100%;}
     .normalbox .slideitem{width: 100%;}
     .newsolderbtn a{width: 100%;box-sizing: border-box;}
@@ -1165,7 +1165,15 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
     font-family: "Garamond";
 }
 
-
+::selection{
+    background-color:#9e927a;color:#fff;
+}
+::-webkit-selection{
+    background-color:#9e927a;color:#fff;
+}
+::-moz-selection{
+    background-color:#9e927a;color:#fff;
+}
 
 
 

@@ -25,7 +25,7 @@ include_once 'common/header.php';?>
 					<h2 class="intoview-effect" data-effect="fadeup"><?php echo $loadedCraft->craft_title?></h2>
 					<div class="slide-con">
 						<ul class="slide-con-inner cs-clear">
-							<li class="j-scrol-bar" onselectstart="return false;">
+							<li class="j-scrol-bar" >
 								<p><?php echo $loadedCraft->body?></p>
 							</li>
 						</ul>

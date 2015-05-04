@@ -1071,6 +1071,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
     }
 
     function initSlider( $wrap , config ){
+
         var $slidebox = $wrap.find('.slidebox');
         var $slidetabs = $wrap.find('.slidetab li');
         if( $slidetabs.length == 1 && !$slidetabs.html() ){
@@ -1988,6 +1989,10 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
         //     $(this).css('padding-top' , (h - $(this).height())/2)
         // })
 
+        //lang check
+        //if ( $("#someID").length > 0 ) {
+        //    $("#someID").text("hi");
+        //}
 
         if( !isMobile ){
             $('.knowhowintro').each(function(){
@@ -2001,31 +2006,43 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 var h = $(this).siblings('.proinforpic').height();
 
                 $(this).height( h );
+                var $proinfortxt=$(this);
 
                 var txtLeightPif=0;
-
-                console.log(h);
-                console.log($('.proinfortxt h2').height());
-                console.log($('.proinfortxt p').css('line-height'));
-                if($('.proinfortxt h2').height()){
-                    txtLeightPif= $('.proinfortxt h2').height() + 20 + parseInt((h-$('.proinfortxt h2').height()-20-70)/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
-                    if (txtLeightPif < ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')))){
-                        txtLeightPif = ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')));
+                if($proinfortxt.find('h2').height()){
+                    txtLeightPif= $proinfortxt.find('h2').height() + 20 + parseInt((h-$proinfortxt.find('h2').height()-20-70)/parseFloat($proinfortxt.find('p').css('line-height')))*parseFloat($proinfortxt.find('p').css('line-height')) - 290;
+                    if (txtLeightPif < ($proinfortxt.find('h2').height() + 20 + parseFloat($proinfortxt.find('p').css('line-height')))){
+                        txtLeightPif = ($proinfortxt.find('h2').height() + 20 + parseFloat($proinfortxt.find('p').css('line-height')));
                     }
-                    console.log(txtLeightPif);
                 }
                 else{
-                    txtLeightPif= parseInt(h/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
+                    txtLeightPif= parseInt(h/parseFloat($proinfortxt.find('p').css('line-height')))*parseFloat($proinfortxt.find('p').css('line-height')) - 290;
 
-                    if (txtLeightPif < (parseFloat($('.proinfortxt p').css('line-height')))){
-                        txtLeightPif = (parseFloat($('.proinfortxt p').css('line-height')));
+                    if (txtLeightPif < (parseFloat($proinfortxt.find('p').css('line-height')))){
+                        txtLeightPif = (parseFloat($proinfortxt.find('p').css('line-height')));
                     }
                 }
+
+                //if($('.proinfortxt h2').height()){
+                //    txtLeightPif= $('.proinfortxt h2').height() + 20 + parseInt((h-$('.proinfortxt h2').height()-20-70)/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
+                //    if (txtLeightPif < ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')))){
+                //        txtLeightPif = ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')));
+                //    }
+                //}
+                //else{
+                //    txtLeightPif= parseInt(h/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
+                //
+                //    if (txtLeightPif < (parseFloat($('.proinfortxt p').css('line-height')))){
+                //        txtLeightPif = (parseFloat($('.proinfortxt p').css('line-height')));
+                //    }
+                //}
+
+
                 $(this).find('.proinfortxt-inner')
                     .css({
                         marginBottom: 50,
                         overflow: 'hidden',
-                        height: txtLeightPif
+                        height: txtLeightPif+5
                     });
             });
 
