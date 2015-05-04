@@ -112,10 +112,12 @@ a{text-decoration:none;outline: none;color:inherit;}
 .nav li{float: left;line-height: 70px;width: auto;text-align: center;font-size: 14px;position: relative;font-family: 'Gotham Light';cursor: pointer;}
 .nav1 li {width:auto;margin-right:8%;}
 .nav2 li {width:auto;margin-right:15%;}
+/*.nav1 li {padding: 0 20px;}*/
 .lang-fr .nav2 li {width:auto;margin-right:8%;}
 .nav li.last {margin-right:0;}
 .nav li.active a{background: white;display: block;}
 .nav li a{position: relative;z-index: 1;}
+.nav li a:hover{color:#4b3700;}
 .logo{width: 6%;position: absolute;margin-left:-3%;left:50%;}
 .logo a{width: 50px;height: 65px;display: block;background: url('../images/logo.png') no-repeat;margin: 0 auto}
 .logosmall{width: 6%;position: absolute;margin-left:-3%;left:50%;  margin-bottom: 20px;bottom: 0;display: none;}
@@ -209,6 +211,7 @@ img.slideitem{height: auto;}
 
 /*sitelinks*/
 .sitelinks{text-transform : uppercase;padding:0 0 45px;}
+.sitelinks a:hover{color:#4b3700;}
 .sitelinkitem{float: left;width:17%;}
 /*.sitelinkitemS{width: 15%}*/
 .sitelinkitemXS{width: 20%;margin-right: -10%;margin-left: 3%;}
@@ -452,7 +455,7 @@ body.lang-en_us .knowhow-weaving .knowhowitem-4 .knowhowintro a {margin-top: 30p
 
 /*about*/
 .introparis h2.aboutintrotit{line-height:40px ;padding-bottom: 40px}
-.aboutinfortxt{background: #f1f4f4;padding-top: 80px}
+.aboutinfortxt{background: #f1f4f4;padding-top: 80px;overflow: hidden;}
 .aboutinfortxt p {overflow: hidden;}
 /*.abouttit h2{width: 840px;margin-left: -420px}
 .about2tit h2{width: 480px;margin-left: -240px}*/
@@ -548,6 +551,8 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
 .nav-bg{position: absolute;bottom: 0;display: none;z-index: 0;margin-left: -250%;left: 50%;width: 500%;}
 .active .nav-bg{display: block;}
+.nav-mask{position: absolute;bottom: 0;display: none;z-index: 0;margin-left: -25%;width: 150%;height: 37px;background: #ffffff;}
+.active .nav-mask{display: block;}
 /*.active-crafts .nav-bg{left:-40%;}
 .active-boutiques .nav-bg{left:-24%;}
 .active-news .nav-bg{left:6%;}
@@ -714,6 +719,9 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 
 .lang-zh_cn .coll_videocom {
     font-size: 16px;
+}
+.lang-zh_cn .proinfortxt-inner p{
+    margin-bottom: 25px;
 }
 
 #job-popup h3 {

@@ -284,7 +284,7 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "Gift Corner" => "Cadeaux",
 	"GIFT" => "CADEAUX",
     
-    "Read more" => "Lire plus",
+    "Read more" => "Voir plus",
     
     "read more" => "Lire plus",
 

@@ -8,7 +8,7 @@ require_once "inc.php";?>
   <meta name="viewport" content="minimal-ui, width=640, minimum-scale=0.5, maximum-scale=0.5, target-densityDpi=290,user-scalable=no" />
   <meta name="keywords" content="<?php echo Yii::t("page_title", "meta_keywords")?>" />
   <meta name="description" content="<?php echo Yii::t("page_title", "meta_desc")?>" />
-  <link rel="stylesheet" type="text/css" href="/css/style.css?_=10019" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
   <link rel="stylesheet" type="text/css" href="/css/editme.css" />
     <!--[if lt IE 9]>
     <link href="/css/ie8.css" rel="stylesheet" type="text/css" />
@@ -36,16 +36,16 @@ require_once "inc.php";?>
 					<div class="head-inner cs-clear">
             <a href="javascript:;" class="m-el m-nav" data-a="m-nav"></a>
 						<ul class="nav nav1">
-							<li data-type="collections"><a data-a="nav-pop" data-d="type=collections" href="javascript:;"><?php echo Yii::t("strings", "COLLECTIONS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-							<li data-type="crafts"><a data-a="nav-pop" data-d="type=crafts" href="javascript:;"><?php echo Yii::t("strings", "CRAFTS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-							<li data-type="boutiques"><a data-a="nav-pop" data-d="type=boutiques" href="javascript:;"><?php echo Yii::t("strings", "BOUTIQUES")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-              <li class="last"><a data-a="nav-link" data-d="type=gift" href="<?php echo url("gift-corner")?>"><?php echo Yii::t("strings", "GIFT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
+							<li data-type="collections"><a data-a="nav-pop" data-d="type=collections" href="javascript:;"><?php echo Yii::t("strings", "COLLECTIONS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li data-type="crafts"><a data-a="nav-pop" data-d="type=crafts" href="javascript:;"><?php echo Yii::t("strings", "CRAFTS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li data-type="boutiques"><a data-a="nav-pop" data-d="type=boutiques" href="javascript:;"><?php echo Yii::t("strings", "BOUTIQUES")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+              <li class="last"><a data-a="nav-link" data-d="type=gift" href="<?php echo url("gift-corner")?>"><?php echo Yii::t("strings", "GIFT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
 						</ul>
 			      <h1 class="logo"><a data-a="nav-link" href='/' onclick="javascript:window.location.href='/'"></a></h1>
                   <h1 class="logosmall"><a data-a="nav-link" href='/' onclick="javascript:window.location.href='/'"></a></h1>
 						<ul class="nav nav2">
-							<li><a data-a="nav-link" href="<?php echo url("news")?>"><?php echo Yii::t("strings", "NEWS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
-							<li><a data-a="nav-link" href="<?php echo url("about")?>"><?php echo Yii::t("strings", "ABOUT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/></li>
+							<li><a data-a="nav-link" href="<?php echo url("news")?>"><?php echo Yii::t("strings", "NEWS")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></div></li>
+							<li><a data-a="nav-link" href="<?php echo url("about")?>"><?php echo Yii::t("strings", "ABOUT")?></a><img class="nav-bg" src="/images/nav-bg.jpg"/><div class="nav-mask"></li>
 							<li class="last"><a data-a="nav-link" href="<?php echo url("contact")?>"><?php echo Yii::t("strings", "CONTACT")?></a></li>
 						</ul>
 						<!--  -->
@@ -130,7 +130,7 @@ require_once "inc.php";?>
 					<div class="nav-pop-inner">
             <?php $crafts = CraftContentAR::model()->getList();?>
             <?php foreach($crafts as $craft): ?>
-            <a class="nav-pop-item inout-effect" data-a="nav-link" href="<?php echo url("craft", array("cid" => $craft->cid))?>">
+            <a class="nav-pop-item inout-effect" data-a="nav-link" href="<?php echo url("craft", array("cid" => $craft->cid))?>" data-order="Reverse">
             	<img src="<?php echo $craft->nav_image?>"/>
             	<span class="nav-text"><i><?php echo $craft->title?></i></span>
             	<span class="home-inout-bg inout-bg"></span>
@@ -145,7 +145,7 @@ require_once "inc.php";?>
             <?php foreach (BoutiqueContentAR::getLocation() as $key => $name): ?>
               <?php $boutique = BoutiqueContentAR::model()->loadByAddressKey($key);?>
               <?php if ($boutique): ?>
-                <a class="nav-pop-item inout-effect" <?php if ($first) echo 'style="margin-left: 12%;"'?> data-a="nav-link" href="<?php echo url("boutique", array("type" => urlencode($key)))?>">
+                <a class="nav-pop-item inout-effect" <?php if ($first) echo 'style="margin-left: 12%;"'?> data-a="nav-link" href="<?php echo url("boutique", array("type" => urlencode($key)))?>" data-order="Reverse">
                 	<img src="<?php echo ($boutique->nav_image) ?>"/>
                 	<span class="nav-text"><i><?php echo $name?></i></span>
                 	<span class="home-inout-bg inout-bg"></span>
