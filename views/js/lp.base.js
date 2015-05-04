@@ -2001,28 +2001,29 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 $(this).height( h );
 
                 var txtLeightPif=0;
+
+                console.log(h);
+                console.log($('.proinfortxt h2').height());
+                console.log($('.proinfortxt p').css('line-height'));
                 if($('.proinfortxt h2').height()){
-console.log('h2');
-                    txtLeightPif= parseInt((h-$('.proinfortxt h2').height()-20)/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
+                    txtLeightPif= $('.proinfortxt h2').height() + 20 + parseInt((h-$('.proinfortxt h2').height()-20-70)/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
                     if (txtLeightPif < ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')))){
                         txtLeightPif = ($('.proinfortxt h2').height() + 20 + parseFloat($('.proinfortxt p').css('line-height')));
                     }
+                    console.log(txtLeightPif);
                 }
                 else{
-                    console.log(h);
-                    console.log('no h2');
                     txtLeightPif= parseInt(h/parseFloat($('.proinfortxt p').css('line-height')))*parseFloat($('.proinfortxt p').css('line-height')) - 290;
-                    console.log(txtLeightPif);
+
                     if (txtLeightPif < (parseFloat($('.proinfortxt p').css('line-height')))){
                         txtLeightPif = (parseFloat($('.proinfortxt p').css('line-height')));
                     }
-                    console.log(txtLeightPif);
                 }
                 $(this).find('.proinfortxt-inner')
                     .css({
                         marginBottom: 50,
                         overflow: 'hidden',
-                        height: txtLeightPif+5
+                        height: txtLeightPif
                     });
             });
 
