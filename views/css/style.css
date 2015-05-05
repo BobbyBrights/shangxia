@@ -941,6 +941,8 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
     .lang-zh_cn .nav1 li {margin-right:10%;}
     .lang-fr .nav1 li {margin-right:8%;}
     .lang-fr .nav2 li {margin-right:13%;}
+}
+@media screen and (min-width:1350px ){
     .colllistbox p{height: 60px;}
 }
 @media screen and (max-width:830px){
