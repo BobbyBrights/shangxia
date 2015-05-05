@@ -46,9 +46,7 @@ $pagename = 'product-detail';
 		<div class="section intoview-effect" data-effect="fadeup">
 		  <div class="product-item cs-clear">
 		    <div class="product-text">
-            <?php if ($product->title): ?>
 		      <h2><?php echo $product->title?></h2>
-            <?php endif;?>
 		      <p><?php echo $product->body?></p>
 		    </div>
 		    <img class="product-image" src="<?php echo $product->slide_image_one?>" />
@@ -56,9 +54,7 @@ $pagename = 'product-detail';
 
 		  <div class="product-item product-item-right cs-clear">
 		    <div class="product-text">
-            <?php if ($product->title_two): ?>
 		      <h2><?php echo $product->title_two?></h2>
-            <?php endif;?>
 		      <p><?php echo $product->short_description_two?></p>
 		    </div>
 		    <img class="product-image" src="<?php echo $product->slide_image_two?>" />
@@ -66,9 +62,7 @@ $pagename = 'product-detail';
 
 		  <div class="product-item cs-clear">
 		    <div class="product-text">
-            <?php if ($product->title_three): ?>
 		      <h2><?php echo $product->title_three?></h2>
-            <?php endif;?>
 		      <p><?php echo $product->short_description_three?></p>
 		    </div>
 		    <img class="product-image" src="<?php echo $product->slide_image_three?>" />
