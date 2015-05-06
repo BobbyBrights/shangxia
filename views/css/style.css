@@ -303,7 +303,7 @@ body.lang-en_us .knowhow-weaving .knowhowitem-4 .knowhowintro a {margin-top: 30p
 .picinfor{}
 .picinfortxt{float: left;width: 32.8%;font-size: 18px;padding:17px 0 0 0;}
 .picinfortxt h2{padding-right: 50px;font-size: 24px;font-family: "Gotham Book";color: #4b3700;padding-bottom: 20px;text-transform: uppercase;line-height: 120%;}
-.picinfortxt p{font-family: Garamond;padding-top: 20px;padding-right: 50px;}
+.picinfortxt p{font-family: Garamond;padding-top: 25px;padding-right: 50px;}
 .picinfortxt p strong{font-weight: normal;}
 .picinforpic{float: right;width: 66.4%;overflow: hidden;}
 
@@ -720,10 +720,13 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .lang-zh_cn .coll_videocom {
     font-size: 16px;
 }
-.lang-zh_cn .proinfortxt-inner p{
+.lang-zh_cn .proinfortxt p{
     margin-bottom: 25px;
 }
 
+.lang-zh_cn .picinfortxt p{
+    padding-top: 25px;
+}
 #job-popup h3 {
     display: inline-block;
     padding-bottom: 10px;

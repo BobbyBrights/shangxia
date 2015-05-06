@@ -2014,71 +2014,43 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
             });
 
             $('.proinfortxt').each(function(){
-                //var h = $(this).siblings('.proinforpic').height();
-                //
-                //$(this).height( h );
-                //var $proinfortxt=$(this);
-                //
-                //var txtLeightPif=h;
-                //
-                //var $proinforinner=$proinfortxt.find('.proinfortxt-inner');
-                //$proinforinner.find('p').unwrap('<div class=\'proinforp\'></div>').wrapAll('<div class=\'proinforp\'></div>');
-                //var $proinforp=$proinforinner.find('.proinforp');
-                //
-                //
-                //var lineheight=28;
-                //if ($('.lang-zh_cn').length){
-                //    lineheight=25;
-                //}
-                //if ($(window).find('.lang-en_us').length){
-                //    lineheight=28;
-                //}
-                //    if($proinfortxt.find('h2').height()){
-                //        txtLeightPif=txtLeightPif-$proinfortxt.find('h2').height() - 20;
-                //    }
-                //    if($proinfortxt.find('h3').height()){
-                //        txtLeightPif=txtLeightPif-$proinfortxt.find('h3').height() - 20;
-                //    }
-                //    txtLeightPif-= 290;
-                //    txtLeightPif= parseInt(txtLeightPif/parseFloat(lineheight))*parseFloat(lineheight);
-                //
-                //
-                //    if (txtLeightPif < parseFloat(lineheight)){
-                //        txtLeightPif = parseFloat(lineheight);
-                //    }
-                //
-                //
-                //    //if($proinfortxt.find('h2').height()){
-                //    //    txtLeightPif+=$proinfortxt.find('h2').height() + 20;
-                //    //}
-                //    //if($proinfortxt.find('h3').height()){
-                //    //    txtLeightPif+=$proinfortxt.find('h3').height() + 20;
-                //    //}
-                //
-                ////txtLeightPif=h-290;
-                ////
-                ////var txtPifViewheight=txtLeightPif-$proinfortxt.find('h2').height() - 20;
-                ////var txtPifViewWidth=$proinfortxt.find('p').width();
-                ////var txtPifViewNum=txtPifViewheight/25*txtPifViewWidth*45/433;
-                ////
-                ////console.log(txtPifViewheight + ' ' +txtPifViewWidth);
-                ////console.log(txtPifViewNum);
-                ////$proinforinner.find('.proinforp').html($proinfortxt.find('.proinforp').html().subByte(0,txtPifViewNum));
-                //
-                //$(this).find('.proinforp')
-                //    .css({
-                //        marginBottom: 50,
-                //        overflow: 'hidden',
-                //        height: txtLeightPif
-                //    });
                 var h = $(this).siblings('.proinforpic').height();
                 $(this).height( h );
-                $(this).find('.proinfortxt-inner')
+                var $proinfortxt=$(this);
+                var txtLeightPif=h;
+                var $proinforinner=$proinfortxt.find('.proinfortxt-inner');
+                $proinforinner.find('p').unwrap('<div class=\'proinforp\'></div>').wrapAll('<div class=\'proinforp\'></div>');
+                var $proinforp=$proinforinner.find('.proinforp');
+                var lineheight=parseInt($proinfortxt.find('p').css('line-height'));
+                var ua = navigator.userAgent.toLowerCase();
+                if(ua.indexOf("firefox")>0) lineheight=parseFloat($proinfortxt.find('p').css('line-height'));
+                    if($proinfortxt.find('h2').height()){
+                        txtLeightPif=txtLeightPif-$proinfortxt.find('h2').height() - 20;
+                    }
+                    if($proinfortxt.find('h3').height()){
+                        txtLeightPif=txtLeightPif-$proinfortxt.find('h3').height() - 20;
+                    }
+                    txtLeightPif-= 290;
+                    txtLeightPif= parseInt(txtLeightPif/parseFloat(lineheight))*parseFloat(lineheight);
+                    if (txtLeightPif < parseFloat(lineheight)){
+                        txtLeightPif = parseFloat(lineheight);
+                    }
+
+
+                $(this).find('.proinforp')
                     .css({
-                        marginBottom: 30,
+                        marginBottom: 50,
                         overflow: 'hidden',
-                        height: h - 290
+                        height: txtLeightPif
                     });
+                //var h = $(this).siblings('.proinforpic').height();
+                //$(this).height( h );
+                //$(this).find('.proinfortxt-inner')
+                //    .css({
+                //        marginBottom: 30,
+                //        overflow: 'hidden',
+                //        height: h - 290
+                //    });
             });
 
             var resizepicinfortxt = false;
@@ -2092,22 +2064,58 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                         paddingBottom: 50
                     })
                     .find('.picinfortxt-inner').height( h - 100 )
-                        .css('overflow' , 'hidden');
+                        //.css('overflow' , 'hidden')
+                    ;
 
 
-                    var $inner = $('.news-picinfortxt .picinfortxt-inner');
-                    if( $inner.length && !resizepicinfortxt ){
-                        resizepicinfortxt = true;
-                        var ttop = $inner.offset().top;
-                        var theight = $inner.height();
+                    //var $inner = $('.news-picinfortxt .picinfortxt-inner');
+                    //if( $inner.length && !resizepicinfortxt ){
+                    //    resizepicinfortxt = true;
+                    //    var ttop = $inner.offset().top;
+                    //    var theight = $inner.height();
+                    //
+                    //    var bodyTop = $inner.find('.body').offset().top;
+                    //    var lineHeight = parseInt( $inner.find('.body').css('lineHeight') );
+                    //    var ua = navigator.userAgent.toLowerCase();
+                    //    if(ua.indexOf("firefox")>0) lineHeight=parseFloat( $inner.find('p').css('lineHeight'));
+                    //    $inner.find('.body').css({
+                    //        'height': ~~( ( ttop + theight - bodyTop ) / lineHeight ) * lineHeight,
+                    //        overflow: 'hidden'
+                    //    });
+                    //}
 
-                        var bodyTop = $inner.find('.body').offset().top;
-                        var lineHeight = parseInt( $inner.find('.body').css('lineHeight') );
-                        $inner.find('.body').css({
-                            'height': ~~( ( ttop + theight - bodyTop ) / lineHeight ) * lineHeight - 10,
-                            overflow: 'hidden'
-                        });
+                    var h = $picWrap.height();
+                    var $proinfortxt=$this;
+                    var txtLeightPif=h-100;
+                    var $proinforinner=$proinfortxt.find('.picinfortxt-inner');
+                    $proinforinner.find('p').unwrap('<div class=\'picinfop\'></div>').wrapAll('<div class=\'picinfop\'></div>');
+                    var $proinforp=$proinforinner.find('.picinfop');
+                    var lineheight=parseInt($proinfortxt.find('p').css('line-height'));
+                    var ua = navigator.userAgent.toLowerCase();
+                    if(ua.indexOf("firefox")>0) lineheight=parseFloat($proinfortxt.find('p').css('line-height'));
+                    if($proinfortxt.find('h2').height()){
+                        console.log(txtLeightPif);
+                        txtLeightPif=txtLeightPif-$proinfortxt.find('h2').height() - 20;
                     }
+                    if($proinfortxt.find('h3').height()){
+                        console.log(txtLeightPif);
+                        txtLeightPif=txtLeightPif-$proinfortxt.find('h3').height() - 20;
+                    }
+                    console.log(txtLeightPif);
+                    //txtLeightPif-= 290;
+                    txtLeightPif= parseInt(txtLeightPif/parseFloat(lineheight))*parseFloat(lineheight);
+                    if (txtLeightPif < parseFloat(lineheight)){
+                        txtLeightPif = parseFloat(lineheight);
+                    }
+
+
+                    console.log(txtLeightPif);
+                    $this.find('.picinfop')
+                        .css({
+                            marginBottom: 50,
+                            overflow: 'hidden',
+                            height: txtLeightPif
+                        });
                 } );
                 // var h = $(this).next('.picinforpic').height();
                 // $(this).height( h - 50 ).css({
