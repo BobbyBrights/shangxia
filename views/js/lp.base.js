@@ -2063,7 +2063,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                         overflow: 'hidden',
                         paddingBottom: 50
                     })
-                    .find('.picinfortxt-inner').height( h - 100 )
+                    .find('.picinfortxt-inner').height( h - 120 )
                         //.css('overflow' , 'hidden')
                     ;
 
