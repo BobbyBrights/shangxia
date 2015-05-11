@@ -915,7 +915,7 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
     .colllistbox p{height: auto;}
 }
 
-@media screen and (min-width:960px ){
+@media screen and (min-width:980px ){
     .lang-fr .nav1 li {margin-right:7%;}
     .lang-fr .nav2 li {margin-right:7%;}
     .colllistbox p{height: 80px;}
