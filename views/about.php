@@ -111,59 +111,59 @@ include_once 'common/header.php';?>
 		</div>
 		<!--  other jobs -->
 		<a name="jobs"></a>
-		<div class="section" style="display: none;">
-			<div class="products othercraf">
-				<div class="productstit jobstit intoview-effect" data-effect="fadeup">
-					<h2><?php echo Yii::t("strings", "jobs")?></h2>
-				</div>
-				<div class="productscom jobscom">
-					<!--  -->
-					<div class="productslist cs-clear">
-              <?php foreach (loadJob() as $job): ?>
-                <div class="jobsitem intoview-effect" data-effect="fadeup">
-                    <h3><?php echo $job->title?></h3>
-                    <a href="#" class="btn transition-wrap" data-a="show-pop"><span class="transition"><?php echo Yii::t("strings", "Read more")?><br><br><?php echo Yii::t("strings", "Read more")?></span></a>
-                    <textarea style="display:none;">
-                        <div class="popconabout" id="job-popup">
-                          <h2><?php echo $job->title?></h2>
-                          <?php if (($job->report_to)):?>
-                          <div class="popcontxt">
-                            <p><?php echo Yii::t("strings", "Reports To")?>: <?php echo $job->report_to?><br /><?php if ($job->location):?><?php echo Yii::t("strings", "Location")?>: <?php echo $job->location?><?php endif;?></p>
-                          </div>
-                          <?php endif;?>
-                          <?php if ($job->general_role): ?>
-      										<h3><?php echo Yii::t("strings", "General Role")?>:</h3>
-                          <div class="popcontxt">
-                            <p><?php echo $job->general_role?></p>
-                          </div>
-                          <?php endif;?>
-                          <h3><?php echo Yii::t("strings", "Key Responsibilities")?>:</h3>
-                          <div class="popcontxt">
-                            <p>
-                              <?php echo $job->key_responsibilities?>
-                            </p>
-                          </div>
-                          <h3><?php echo Yii::t("strings", "Requirements & Capabilities")?>:</h3>
-                          <div class="popcontxt">
-                            <p> 
-                              <?php echo $job->requirements_capabilities?>
-                              </p>
-                          </div>
-                          <a href="mailto:hr@shang-xia.com" class="btn popaboutbtn transition-wrap" ><span class="transition"><?php echo Yii::t("strings", "Apply")?><br><br><?php echo Yii::t("strings", "Apply")?></span></a>
-                          <div class="popshare cs-clear">
-                            <a href="#" style="display:none" class="popsharef"></a>
-                            <a target="_blank" href="http://twitter.com/intent/tweet?url=http://shang-xia.com/about&text=<?php echo urlencode('SHANG XIA | JOBS | '.$job->title)?>" class="popsharet"></a>
-                            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&title=<?php echo urlencode('SHANG XIA | JOBS | '.$job->title)?>&summary=&source=&url=http://shang-xia.com/about" class="popsharein"></a>
-                            <a target="_blank" href="http://service.weibo.com/share/share.php?url=http://shang-xia.com/about&appkey=&title=<?php echo urlencode('SHANG XIA | JOBS | '.$job->title)?>&pic=&ralateUid=&language=" class="popsharewb"></a>
-                            <a href="#" style="display:none" class="popsharewx"></a>
-                          </div>
-                        </div>
-                    </textarea>
-                </div>
-              <?php endforeach;?>
-					</div>
-				</div>
-			</div>
-		</div>
+<!--		<div class="section" style="display: none;">-->
+<!--			<div class="products othercraf">-->
+<!--				<div class="productstit jobstit intoview-effect" data-effect="fadeup">-->
+<!--					<h2>--><?php //echo Yii::t("strings", "jobs")?><!--</h2>-->
+<!--				</div>-->
+<!--				<div class="productscom jobscom">-->
+<!--					<!--  -->-->
+<!--					<div class="productslist cs-clear">-->
+<!--              --><?php //foreach (loadJob() as $job): ?>
+<!--                <div class="jobsitem intoview-effect" data-effect="fadeup">-->
+<!--                    <h3>--><?php //echo $job->title?><!--</h3>-->
+<!--                    <a href="#" class="btn transition-wrap" data-a="show-pop"><span class="transition">--><?php //echo Yii::t("strings", "Read more")?><!--<br><br>--><?php //echo Yii::t("strings", "Read more")?><!--</span></a>-->
+<!--                    <textarea style="display:none;">-->
+<!--                        <div class="popconabout" id="job-popup">-->
+<!--                          <h2>--><?php //echo $job->title?><!--</h2>-->
+<!--                          --><?php //if (($job->report_to)):?>
+<!--                          <div class="popcontxt">-->
+<!--                            <p>--><?php //echo Yii::t("strings", "Reports To")?><!--: --><?php //echo $job->report_to?><!--<br />--><?php //if ($job->location):?><!----><?php //echo Yii::t("strings", "Location")?><!--: --><?php //echo $job->location?><!----><?php //endif;?><!--</p>-->
+<!--                          </div>-->
+<!--                          --><?php //endif;?>
+<!--                          --><?php //if ($job->general_role): ?>
+<!--      										<h3>--><?php //echo Yii::t("strings", "General Role")?><!--:</h3>-->
+<!--                          <div class="popcontxt">-->
+<!--                            <p>--><?php //echo $job->general_role?><!--</p>-->
+<!--                          </div>-->
+<!--                          --><?php //endif;?>
+<!--                          <h3>--><?php //echo Yii::t("strings", "Key Responsibilities")?><!--:</h3>-->
+<!--                          <div class="popcontxt">-->
+<!--                            <p>-->
+<!--                              --><?php //echo $job->key_responsibilities?>
+<!--                            </p>-->
+<!--                          </div>-->
+<!--                          <h3>--><?php //echo Yii::t("strings", "Requirements & Capabilities")?><!--:</h3>-->
+<!--                          <div class="popcontxt">-->
+<!--                            <p> -->
+<!--                              --><?php //echo $job->requirements_capabilities?>
+<!--                              </p>-->
+<!--                          </div>-->
+<!--                          <a href="mailto:hr@shang-xia.com" class="btn popaboutbtn transition-wrap" ><span class="transition">--><?php //echo Yii::t("strings", "Apply")?><!--<br><br>--><?php //echo Yii::t("strings", "Apply")?><!--</span></a>-->
+<!--                          <div class="popshare cs-clear">-->
+<!--                            <a href="#" style="display:none" class="popsharef"></a>-->
+<!--                            <a target="_blank" href="http://twitter.com/intent/tweet?url=http://shang-xia.com/about&text=--><?php //echo urlencode('SHANG XIA | JOBS | '.$job->title)?><!--" class="popsharet"></a>-->
+<!--                            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&title=--><?php //echo urlencode('SHANG XIA | JOBS | '.$job->title)?><!--&summary=&source=&url=http://shang-xia.com/about" class="popsharein"></a>-->
+<!--                            <a target="_blank" href="http://service.weibo.com/share/share.php?url=http://shang-xia.com/about&appkey=&title=--><?php //echo urlencode('SHANG XIA | JOBS | '.$job->title)?><!--&pic=&ralateUid=&language=" class="popsharewb"></a>-->
+<!--                            <a href="#" style="display:none" class="popsharewx"></a>-->
+<!--                          </div>-->
+<!--                        </div>-->
+<!--                    </textarea>-->
+<!--                </div>-->
+<!--              --><?php //endforeach;?>
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
 		<!--  -->
 <?php include_once 'common/footer.php';?>	
