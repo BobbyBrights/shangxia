@@ -111,7 +111,7 @@ include_once 'common/header.php';?>
 		</div>
 		<!--  other jobs -->
 		<a name="jobs"></a>
-		<div class="section">
+		<div class="section" style="display: none;">
 			<div class="products othercraf">
 				<div class="productstit jobstit intoview-effect" data-effect="fadeup">
 					<h2><?php echo Yii::t("strings", "jobs")?></h2>

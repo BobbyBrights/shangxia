@@ -894,6 +894,12 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
 
 
     function firstWindowLoaded(){
+
+        $('.nav1 li').click(function(){
+            console.log('test');
+            $('html,body').animate({scrollTop:$('.head').offset().top}, 800);
+        });
+
         if( isMobile ){
             $('.nav1 li').click(function(){
                 var type = $(this).data('type');
