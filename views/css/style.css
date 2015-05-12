@@ -606,6 +606,11 @@ body .vjs-default-skin .vjs-big-play-button:focus{box-shadow: none;}
 .product-type-list-item{clear:left;}
 .product-item {margin-bottom: 10px;}
 .product-item .product-text{width: 36.47%; float: left;text-align: center;padding-top: 70px;}
+@media(max-width: 1280px){
+    .product-item .product-text{
+        padding-top: 0;
+    }
+}
 .product-item .product-text h2{font-size: 30px;font-family: "Gotham Book";color: #4b3700;padding-bottom: 40px;text-transform: uppercase;line-height: 120%;}
 .product-item .product-text p,.product-item .product-text div{font-family: Garamond;color: rgb(158, 146, 122);font-size: 18px;line-height: 24px;padding:0 30px;}
 .product-item .product-image{width:63.53%; float:right;}
