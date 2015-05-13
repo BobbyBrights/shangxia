@@ -2,44 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91aff1e-5f75-400f-ade5-6675323d0744" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/css/style.css" afterPath="$PROJECT_DIR$/views/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/shangxia.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="shangxia.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1425283960846" ignored="false" />
-    <file path="/main.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418116495252" ignored="false" />
-    <file path="/news.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417502472975" ignored="false" />
-    <file path="/content.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1412947128942" ignored="false" />
-    <file path="/a.dummy" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418128291524" ignored="false" />
-    <file path="/strings.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413356318169" ignored="false" />
-    <file path="/footer.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414389706581" ignored="false" />
-    <file path="/privacy-policy.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413030688621" ignored="false" />
-    <file path="/style.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418116810186" ignored="false" />
-    <file path="$PROJECT_DIR$/../rungiswines/wp-content/themes/wine/single.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413168818180" ignored="false" />
-    <file path="$PROJECT_DIR$/../ave_1000/yii/protected/views/revisit/index.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413261750559" ignored="false" />
-    <file path="/header.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417590359030" ignored="false" />
-    <file path="/product-detail.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413278471930" ignored="false" />
-    <file path="/ie8.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1413358648094" ignored="false" />
-    <file path="/homeslider_cn.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422433600911" ignored="false" />
-    <file path="/homeslider_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422433812538" ignored="false" />
-    <file path="/product-type.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417587658314" ignored="false" />
-    <file path="$PROJECT_DIR$/../upstudios/css/base.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414488914289" ignored="false" />
-    <file path="/base.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414488896735" ignored="false" />
-    <file path="$PROJECT_DIR$/../upstudios/index_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414492371528" ignored="false" />
-    <file path="/index_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1414492362660" ignored="false" />
-    <file path="$PROJECT_DIR$/../rungiswines/wp-content/themes/wine/page.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417525459453" ignored="false" />
-    <file path="$PROJECT_DIR$/../rungiswines/wp-content/themes/wine/style.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417526462117" ignored="false" />
-    <file path="/news-press.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1417591126263" ignored="false" />
-    <file path="/script.js" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418114155670" ignored="false" />
-    <file path="/addcontent.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418041947051" ignored="false" />
-    <file path="/PressContentAR.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1418188535205" ignored="false" />
-    <file path="/webform_ajax.module" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422430971652" ignored="false" />
-    <file path="/friend_cn.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422434061989" ignored="false" />
-    <file path="/friend_en.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422434085587" ignored="false" />
-    <file path="$PROJECT_DIR$/../ff/api/twitter/twitterlist.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422516842521" ignored="false" />
-    <file path="/twitterlist.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1422516442660" ignored="false" />
-    <file path="/all.css" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1425282738612" ignored="false" />
-    <file path="/how-eggshell_porcelain.php" changelist="f91aff1e-5f75-400f-ade5-6675323d0744" time="1425285226667" ignored="false" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,43 +34,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="249" column="43" selection-start="13264" selection-end="13264" vertical-scroll-proportion="0.03875969">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11230" max-vertical-offset="22819">
+              <caret line="611" column="22" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="craft.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/craft.php">
+      <file leaf-file-name="lp.base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/js/lp.base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="18" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-12.107142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="how-cashmere_felt.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/widget/how-cashmere_felt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="30" selection-start="4859" selection-end="4859" vertical-scroll-proportion="-14.142858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="how-eggshell_porcelain.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="48" selection-start="5858" selection-end="5858" vertical-scroll-proportion="-13.464286">
+            <state vertical-scroll-proportion="-4.736842" vertical-offset="3435" max-vertical-offset="55765">
+              <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
               <folding>
-                <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1431486979000" expanded="true" signature="1516:1533" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="1555:2293" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="1752:1765" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="1766:2273" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="2125:2242" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="2199:2213" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="2354:2405" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="2494:2760" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="2801:2910" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="2871:2885" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="56988:57273" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="57015:57040" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="57075:57267" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="74044:74259" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="74103:74253" placeholder="..." />
+                <marker date="1431486979000" expanded="true" signature="100233:100244" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.5" vertical-offset="404" max-vertical-offset="1501">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40371847" vertical-offset="0" max-vertical-offset="753">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,33 +108,24 @@
     </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/news-tpl2.php" />
-        <option value="$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php" />
-        <option value="$PROJECT_DIR$/views/news-tpl1.php" />
-        <option value="$PROJECT_DIR$/views/news-tpl3.php" />
-        <option value="$PROJECT_DIR$/views/admin/scripts/script.js" />
-        <option value="$PROJECT_DIR$/views/news-detail.php" />
-        <option value="$PROJECT_DIR$/views/admin/css/main.css" />
-        <option value="$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php" />
-        <option value="$USER_HOME$/Desktop/webform_ajax.module" />
-        <option value="$USER_HOME$/Desktop/homeslider_cn.php" />
-        <option value="$USER_HOME$/Desktop/homeslider_en.php" />
-        <option value="$USER_HOME$/Desktop/friend_cn.php" />
-        <option value="$USER_HOME$/Desktop/friend_en.php" />
-        <option value="$USER_HOME$/Desktop/all.css" />
-        <option value="$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php" />
+        <option value="$PROJECT_DIR$/views/admin/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/views/js/lp.base.js" />
         <option value="$PROJECT_DIR$/views/css/style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="23" />
-    <option name="width" value="1420" />
-    <option name="height" value="830" />
+    <option name="x" value="97" />
+    <option name="y" value="30" />
+    <option name="width" value="2384" />
+    <option name="height" value="1285" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -158,7 +141,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -188,56 +171,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shangxia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -246,9 +179,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin/protected/config" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/views/admin/css" />
     </key>
@@ -257,53 +193,92 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f91aff1e-5f75-400f-ade5-6675323d0744" name="Default" comment="" />
       <created>1412928439116</created>
+      <option name="number" value="Default" />
       <updated>1412928439116</updated>
     </task>
+    <task id="LOCAL-00001" summary="修改上下css文件">
+      <created>1431427040571</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1431427040571</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改product-detail自适应屏幕">
+      <created>1431487121341</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1431487121341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1420" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="97" y="30" width="2384" height="1285" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20596798" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32990575" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990575" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13290599" sideWeight="0.67042255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -311,164 +286,297 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="修改上下css文件" />
+    <MESSAGE value="修改product-detail自适应屏幕" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改product-detail自适应屏幕" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php">
+    <entry file="file://$PROJECT_DIR$/views/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="3" selection-start="741" selection-end="741" vertical-scroll-proportion="0.5023328" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="198" selection-end="198" vertical-scroll-proportion="0.02954899" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/modules/api/controllers/ContentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="6" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.02954899" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="44" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.02954899" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/news-tpl2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="207" selection-end="207" vertical-scroll-proportion="0.2021773" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/homeslider_cn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="27" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.7410296" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/homeslider_en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="45" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-0.06708268" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/webform_ajax.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="851" selection-end="851" vertical-scroll-proportion="0.44801223" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/friend_cn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="114" selection-start="842" selection-end="842" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/friend_en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.2074883" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/FranklinGothicLT-DemiCmpr/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="30" selection-end="55" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4731" max-vertical-offset="22781">
+          <caret line="249" column="43" selection-start-line="249" selection-start-column="43" selection-end-line="249" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/all.css">
+    <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2859" column="11" selection-start="74304" selection-end="74304" vertical-scroll-proportion="0.14157973">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1501">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/craft.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="18" selection-start="3373" selection-end="3373" vertical-scroll-proportion="-12.107142">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="3059">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/widget/how-cashmere_felt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="30" selection-start="4859" selection-end="4859" vertical-scroll-proportion="-14.142858">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="1881">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="48" selection-start="5858" selection-end="5858" vertical-scroll-proportion="-13.464286">
+        <state vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1463">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
           <folding>
-            <element signature="tag#div#1;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="43" selection-start="13264" selection-end="13264" vertical-scroll-proportion="0.03875969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22781">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/craft.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="3059">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/widget/how-cashmere_felt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="1881">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1463">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/PressContentAR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5023328" vertical-offset="0" max-vertical-offset="0">
+          <caret line="28" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/models/NewsContentAR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02954899" vertical-offset="0" max-vertical-offset="0">
+          <caret line="10" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/modules/api/controllers/ContentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02954899" vertical-offset="0" max-vertical-offset="0">
+          <caret line="45" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02954899" vertical-offset="0" max-vertical-offset="0">
+          <caret line="40" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/news-tpl2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2021773" vertical-offset="0" max-vertical-offset="0">
+          <caret line="7" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/craft.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="3059">
+          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/widget/how-cashmere_felt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1634" max-vertical-offset="1881">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/widget/how-eggshell_porcelain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="1463">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/yii/base/CApplication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.964285" vertical-offset="14431" max-vertical-offset="18924">
+          <caret line="786" column="30" selection-start-line="786" selection-start-column="30" selection-end-line="786" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.535715" vertical-offset="0" max-vertical-offset="4465">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shangxia.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5187">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/yii/cli/views/webapp/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1805">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="2432">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/protected/config/main1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65045047" vertical-offset="646" max-vertical-offset="2432">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/collections.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.178572" vertical-offset="0" max-vertical-offset="2603">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/yii/collections/CConfiguration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.892857" vertical-offset="903" max-vertical-offset="2014">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5" vertical-offset="404" max-vertical-offset="1501">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11230" max-vertical-offset="22819">
+          <caret line="611" column="22" selection-start-line="611" selection-start-column="22" selection-end-line="611" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/js/lp.base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.736842" vertical-offset="3435" max-vertical-offset="55765">
+          <caret line="195" column="27" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1431486979000" expanded="true" signature="1516:1533" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="1555:2293" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="1752:1765" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="1766:2273" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="2125:2242" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="2199:2213" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="2354:2405" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="2494:2760" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="2801:2910" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="2871:2885" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="56988:57273" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="57015:57040" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="57075:57267" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="74044:74259" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="74103:74253" placeholder="..." />
+            <marker date="1431486979000" expanded="true" signature="100233:100244" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40371847" vertical-offset="0" max-vertical-offset="753">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
