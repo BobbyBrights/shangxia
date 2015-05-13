@@ -203,7 +203,11 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                     $('.product-image,.product-text').each(function(){
                         var height=$(this).height();
                         var parentHeight=$(this).parent().height();
-                        $(this).css('top',(parentHeight-height)/2);
+                        if ($(window).width() <= 830 ){
+                            $(this).css('top',0);
+                        }else{
+                            $(this).css('top',(parentHeight-height)/2);
+                        }
                     });
                 }
                 changePosition();
