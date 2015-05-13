@@ -199,6 +199,17 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 var headHeight = $('.head').height();
                 var $slider = $('.slide');
                 var top = $slider.offset().top;
+                function changePosition(){
+                    $('.product-image,.product-text').each(function(){
+                        var height=$(this).height();
+                        var parentHeight=$(this).parent().height();
+                        $(this).css('top',(parentHeight-height)/2);
+                    });
+                }
+                changePosition();
+                $(window).resize(function(){
+                    changePosition();
+                })
                 // $(window).scroll(function(){
                 //     var st = $(window).scrollTop();
 
@@ -216,7 +227,6 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 //             });
                 //     }
                 // });
-
                 cb && cb();
             },
             "news-press": function( cb ){
