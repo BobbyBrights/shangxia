@@ -111,7 +111,7 @@ include_once 'common/header.php';?>
 		</div>
 		<!--  other jobs -->
 		<a name="jobs"></a>
-		<div class="section"
+		<div class="section jobs"
             <?php if(Yii::app()->language == "fr"){echo "style='display: none'";}?>
             >
 			<div class="products othercraf">

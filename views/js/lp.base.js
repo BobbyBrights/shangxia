@@ -180,6 +180,9 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 cb && cb();
             },
             "about-page": function( cb ){
+                if(LP.getCookie("lang") == "fr"){
+                    $('.jobs').hide();
+                };
                 if( isMobile ){
                     setTimeout(function(){
                         $('.aboutinfortxt').insertAfter($('.proinforpic'));
