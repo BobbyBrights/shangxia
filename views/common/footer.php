@@ -89,7 +89,9 @@
 						<a data-a="nav-link" href="<?php echo url("about")?>#bran" data-prev="/news"><?php echo Yii::t("strings", "brand story")?></a>
 						<a data-a="nav-link" href="<?php echo url("about")?>#arts" data-prev="/news"><?php echo Yii::t("strings", "artistic director")?></a>
 						<a data-a="nav-link" href="<?php echo url("about")?>#hert" data-prev="/news"><?php echo Yii::t("strings", "heritage & encounter")?></a>
-						<a data-a="nav-link" href="<?php echo url("about")?>#jobs" data-prev="/news"><?php echo Yii::t("strings", "JOIN SHANG XIA")?></a>
+						<a data-a="nav-link" href="<?php echo url("about")?>#jobs" data-prev="/news"
+                            <?php if(Yii::app()->language == "fr"){echo "style='display: none'";}?>
+                            ><?php echo Yii::t("strings", "JOIN SHANG XIA")?></a>
 					</div>
 					<div class="sitelinkitem sitelinkitemXS intoview-effect" data-effect="fadeup">
 						<h2><?php echo Yii::t("strings", "CONTACT")?></h2>
