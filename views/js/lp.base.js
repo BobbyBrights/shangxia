@@ -2026,7 +2026,9 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                 var h = $(this).parent('.knowhowitem').children('.knowhowpic').height()
                 $(this).css('height' , h);
                 var $wrap = $(this).children('.cwrap');
-                $wrap.css('padding-top' , (h - $wrap.height())/2);
+                console.log($wrap.height());
+                //$wrap.css('padding-top' , (h - $wrap.height())/2);
+                $wrap.css('padding-top' , h/2 - $wrap.height()-10);
             });
 
             $('.proinfortxt').each(function(){
