@@ -233,6 +233,9 @@ return array(
     "CRAFTS" => "「上下」工艺",
     "related products" => "相关产品",
     "other crafts" => "其他工艺",
+
+    "other news"=>"其它新闻",
+
     "shang xia news" => "「上下」新闻",
     "older news" => "新闻回顾",
     "View all news" => "所有消息",

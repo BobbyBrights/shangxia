@@ -158,7 +158,7 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     
     "Shanghai" => "SHANGHAI",
     "Paris" => "PARIS",
-    "Beijing" => "PÉKIN",
+    "Beijing" => "Pékin",
     
     "{city} boutiquue" => "{city} ESPACE",
 
@@ -189,7 +189,8 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "SHANG XIA furniture" => "SHANG XIA Mobilier",
     
     "other crafts" => "AUTRES ARTISANATS",
-    
+
+    "other news"=>"AUTRES ACTUALITES",
     
     "KNOW - HOW" => "SAVOIR-FAIRE",
     
@@ -362,7 +363,7 @@ Pour reprendre les mots du poète Li Bai (701-762) de la dynastie Tang (618-907)
     "In addition to the range of homeware and accessories" => "En plus de la gamme des articles ménagers et des accessoires",
       
     "about shangxia" => "L’HISTOIRE DE SHANG XIA",
-      "about_shangxia_desc" => "SHANGXIA a pour vocation de créer des objets qui illustrent un art de vivre contemporain : mobilier, vêtement, bijoux et accessoires sont fabriqués à partir de matières premières et de savoir-faire chinois et asiatiques d'excellence.", 
+      "about_shangxia_desc" => "SHANG XIA a pour vocation de créer des objets qui illustrent un art de vivre contemporain : mobilier, vêtement, bijoux et accessoires sont fabriqués à partir de matières premières et de savoir-faire chinois et asiatiques d'excellence.",
     
     'HAND SCULPTURE CLOTHING' => 'Sculpture artisanale du vêtement',
     

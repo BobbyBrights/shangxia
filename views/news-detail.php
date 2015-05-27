@@ -64,7 +64,7 @@ include_once 'common/header.php';?>
 					<div class="newsoldertime">
 						<ul class="slidetab">
             <?php $i = 0; foreach ($groupedNews as $year => $news): $i++?>
-              <li class="<?php if( $i == count( $groupedNews ) ) echo 'on'; ?>"><?php echo $year?></li>
+              <li class="<?php if( $i == 1 ) echo 'on'; ?>"><?php echo $year?></li>
             <?php endforeach;?>
             			</ul>
 

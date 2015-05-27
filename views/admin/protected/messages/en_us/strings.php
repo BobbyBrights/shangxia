@@ -216,7 +216,7 @@ fabric and untangle the tangled spots. The fabric is rinsed unhooked and hung up
 		<p><strong>SHANGXIA</strong> informs visitors to the Website that these terms and conditions can be modified by <strong>SHANGXIA</strong> at any time. As soon as these modifications are displayed on the Website, each visitor who accesses the Website is assumed to accept these modifications without restriction.</p>
 		<p>These terms and conditions shall be governed by the laws of People' Republic of China. Any action or claim related to the use of the Website shall come under the jurisdiction of the Chinese Courts. In case of any discrepancy between the English and the Chinese, the English shall prevail.</p>",
 
-    "about_shangxia_desc" => "SHANGXIA is a brand for art of living that promises a unique encounter with the heritage of
+    "about_shangxia_desc" => "SHANG XIA is a brand for art of living that promises a unique encounter with the heritage of
  Chinese design and craftsmanship.Chinese renowned designer Jiang Qiong Er established SHANGXIA with a mission to create a 21st century lifestyle founded on the  finest of Chinese design traditions.
           "    ,
     
