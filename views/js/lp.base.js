@@ -245,6 +245,31 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
             "news": function( cb ){
                 // init news-picinfortxt
                 cb && cb();
+                var lang=LP.getCookie('lang');
+                if(lang&&lang=='fr'){
+                    $('span.date').each(function(key,ele){
+                        var dateStr=$(ele).html();
+                        dateStr=dateStr.replace(/FEB/i,'FEV');
+                        dateStr=dateStr.replace(/MAY/i,'MAI');
+                        dateStr=dateStr.replace(/JUN/i,'JUIN');
+                        dateStr=dateStr.replace(/AUG/i,'AOUT');
+                        $(ele).html(dateStr);
+                    })
+                }
+            },
+            "news-detail": function( cb ){
+                cb && cb();
+                var lang=LP.getCookie('lang');
+                if(lang&&lang=='fr'){
+                    $('.date span').each(function(key,ele){
+                        var dateStr=$(ele).html();
+                        dateStr=dateStr.replace(/FEB/i,'FEV');
+                        dateStr=dateStr.replace(/MAY/i,'MAI');
+                        dateStr=dateStr.replace(/JUN/i,'JUIN');
+                        dateStr=dateStr.replace(/AUG/i,'AOUT');
+                        $(ele).html(dateStr);
+                    })
+                }
             },
             "contact-page": function( cb ){
                 if( isMobile ){
@@ -2112,14 +2137,14 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                     var ua = navigator.userAgent.toLowerCase();
                     if(ua.indexOf("firefox")>0) lineheight=parseFloat($proinfortxt.find('p').css('line-height'));
                     if($proinfortxt.find('h2').height()){
-                        console.log(txtLeightPif);
+                        //console.log(txtLeightPif);
                         txtLeightPif=txtLeightPif-$proinfortxt.find('h2').height() - 20;
                     }
                     if($proinfortxt.find('h3').height()){
-                        console.log(txtLeightPif);
+                        //console.log(txtLeightPif);
                         txtLeightPif=txtLeightPif-$proinfortxt.find('h3').height() - 20;
                     }
-                    console.log(txtLeightPif);
+                    //console.log(txtLeightPif);
                     //txtLeightPif-= 290;
                     txtLeightPif= parseInt(txtLeightPif/parseFloat(lineheight))*parseFloat(lineheight);
                     if (txtLeightPif < parseFloat(lineheight)){
@@ -2127,7 +2152,7 @@ LP.use(['jquery' ,'easing' , '../api'] , function( $ , easing , api ){
                     }
 
 
-                    console.log(txtLeightPif);
+                    //console.log(txtLeightPif);
                     $this.find('.picinfop')
                         .css({
                             marginBottom: 50,
