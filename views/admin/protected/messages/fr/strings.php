@@ -3,24 +3,28 @@
 return array(
     "about_brand_story_title" => "SHANG XIA: l’art de vivre chinois",
 
-    "about_brand_story_desc" => "<p>SHANG XIA représente le design contemporain de lart de vivre. Enraciné dans la culture chinoise"
-    .", SHANG XIA sengage à une perpétuelle innovation qui apporte à la vie moderne le sens du style et la virtuosité de l'artisanat traditionnel.<br/><br/>"
-    ."Dirigée par la designer Jiang Qiong Er, SHANG XIA consacre toute son énergie pour préserver les traditions de lartisanat chinois. Ainsi"
-    .", en s’appuyant sur les métiers anciens elle les intègre dans nos vies quotidiennes par ses créations contemporaines."
+    "about_brand_story_desc" => "<p>SHANG XIA représente le design contemporain de l'art de vivre. Enraciné dans la culture chinoise, SHANG XIA s'engage à une perpétue"
+    ."lle innovation qui apporte à la vie moderne le sens du style et la virtuosité de l'artisanat traditionnel. <br/><br/>"
+    ."Dirigée par la designer Jiang Qiong Er, SHANG XIA consacre toute son énergie pour préserver les traditions de l'artisanat chinois"
+    .". Ainsi, en s’appuyant sur les métiers anciens elle les intègre dans nos vies quotidiennes par ses créations contemporaines."
     ."L'ingéniosité technique héritée de la Chine pourra se perpétuer : des meubles en bois, du bambou tressé sur porcelaine, du feutre de cachemire, de la porcelaine coquille d'oeuf..."
     ."Ces techniques remarquables sont transformées par l'inspiration du créatif pour incarner à la fois la beauté et l'utilité."
     ."Elles sont devenues emblématiques de l'artisanat défendu par SHANG XIA.<br/><br/>"
     ."SHANG XIA est persuadé que l'histoire et le sentiment d'appartenance peuvent être retranscrits dans les objets."
-    ."Ses créations pour la décoration dintérieur possèdent un esprit traditionnel et un style moderne. A travers le mobilier, la décoratio"
-    ."n, les vêtements, les bijoux et les services à thé, SHANG XIA met en lumière un style de vie, une qualité propre à SHANG XIA. <br/><br/>"
-    ."SHANG XIA fait preuve de la plus grande exigence dans le choix de ses matériaux et dans le respect des pratiques artisanales pour ses produits.<br/><br/>"
-    ."Avec goût et minutie, SHANG XIA combine une nature chaleureuse, harmonieuse et grâçieuse. SHANG XIA est également engagée à repenser le lien entre mode de vie et art."
-    ."Dans les expositions, les jeunes artisans sont encouragés à créer avec SHANG XIA des éditions limitées intitulées \"objets culturels\" de précieux objets de collection."
-    ."Avec cette rencontre entre la technique et l'art, SHANG XIA partage son style de vie.<br/><br/>"
-    ."\"Au-dessus comme en dessous\": la signification de SHANG XIA, est le fruit d'une culture de 5000 ans. Elle exprime l'héritage et la construction de ponts"
-    ."immatériels qui relient passé et présent, Orient et Occident, art et style de vie, humanité et nature. Cest le précieux mélange entre raffinement et hospitalité de la Chine.<br/><br/>"
-    ."Il existe maintenant des boutiques SHANG XIA à Shanghai, à pékinois et à Paris. En octobre 2014, SHANG XIA a ouvert sa première maison SHANG XIA :"
-    ."un espace pour la vente, la culture et l'art. La Maison est le foyer du style chinois, de la créativité et de la qualité, de l'hospitalité et de la générosité, de l élégance et de la modernité.</p>",
+    ."Ses créations pour la décoration dintérieur possèdent un esprit traditionnel et un style moderne. A travers le mobilier"
+    .", la décoration, les vêtements, les bijoux et les services à thé, SHANG XIA met en lumière un style de vie, une qualité propre à SHANG XIA. <br/><br/>"
+    ."SHANG XIA fait preuve de la plus grande exigence dans le choix de ses matériaux et dans le respect des pratiques artisanales"
+    ."pour ses produits. Avec goût et minutie, SHANG XIA combine une nature chaleureuse, harmonieuse et grâçieuse."
+    ."SHANG XIA est également engagée à repenser le lien entre mode de vie et art.<br/><br/>"
+    ."Dans les expositions, les jeunes artisans sont encouragés à créer avec SHANG XIA des éditions"
+    ."limitées intitulées \"objets culturels\" de précieux objets de collection. Avec cette rencontre entre la"
+    ."technique et l'art, SHANG XIA partage son style de vie.<br/><br/>"
+    ."\"Au-dessus comme en dessous\" : la signification de SHANG XIA, est le fruit d'une culture de 5000 ans."
+    ."Elle exprime l'héritage et la construction de ponts immatériels qui relient passé et présent, Orient et Occident,"
+    ."art et style de vie, humanité et nature. C'est le précieux mélange entre raffinement et hospitalité de la Chine.<br/><br/>"
+    ."Il existe maintenant des boutiques SHANG XIA à Shanghai, à pékinois et à Paris. En octobre 2014, SHANG XIA a ouvert sa première maison SHANG XIA"
+    .": un espace pour la vente, la culture et l'art. La Maison est le foyer du style chinois, de la créativité et de la qualité, de l'hospitalité et de la générosité, de l'élégance et de la modernité.</p>",
+
 
     "about_brand_founder_title" => "FONDATRICE ET DIRECTRICE ARTISTIQUE",
     "about_brand_founter_desc" => "Jiang Qiong Er, directrice artistique et CEO de SHANG XIA, est un designer de renommée internationale. Après de nombreuses années d’études en Europe, Jiang Qiong Er apporte une approche cosmopolite et une expérience bi-culturelle dans ses créations. Respectueuse de la tradition, elle puise son inspiration dans de multiples sources, qui se reflète dans la polyvalence de son travail."
