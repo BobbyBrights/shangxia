@@ -1,13 +1,13 @@
 <?php // tpl2 对应 二张图（ 840x470）上下叠放模版 ?>
 
-<?php 
+<?php
   $images  = array_slice($news->news_slide_image, 0, 2);
 ?>
 <div class="picinfor cs-clear">
     <div class="picinfortxt news-picinfortxt">
         <div class="picinfortxt-inner">
             <h2><?php echo $news->title?></h2>
-            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
             <div class="body">
                 <?php echo $news->body?>
             </div>

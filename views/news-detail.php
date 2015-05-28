@@ -1,4 +1,4 @@
-<?php 
+<?php
 $pagename = 'news-detail';
 include_once 'common/header.php';?>
 
@@ -17,14 +17,14 @@ include_once 'common/header.php';?>
               <div class="picinfortxt">
               	<div class="picinfortxt-inner">
                   <h2><?php echo $news->title?></h2>
-                  <h3><?php echo date("Y M d", strtotime($news->date))?></h3>
+                  <h3><?php echo Util::dateFormat(strtotime($news->date))?></h3>
                   <?php echo $news->body?>
                 </div>
                   <div style="margin-right:50px;">
 						<a href="#" data-a="show-pop" class="btn transition-wrap"><span class="transition"><?php echo Yii::t("strings", "read more")?><br><br><?php echo Yii::t("strings", "read more")?></span></a>
 						<textarea style="display:none;">
 							<h2><?php echo $news->title?></h2>
-				            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+				            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 				            <div class="body">
 				              <?php echo $news->body?>
 				            </div>
@@ -82,20 +82,20 @@ include_once 'common/header.php';?>
 						</div> -->
 					</div>
 					<!--  -->
-					<div class="productslist cs-clear slidebox" style="margin-left:<?php echo -(count( $groupedNews )-1) * 100 . '%'; ?>">
+					<div class="productslist cs-clear slidebox">
             <?php foreach ($groupedNews as $year => $newslist): ?>
             	  <div data-year="<?php echo $year?>" class="cs-clear slideitem">
 	              <?php foreach ($newslist as $news): ?>
 	                <a href="#" data-a="show-news" class="prolistitem newsitem" data-id="<?php echo $news->cid?>">
 	                  <img src="<?php echo $news->thumbnail?>" width="100%" />
 	                  <p><?php echo $news->title?></p>
-	                  <p class="date"><span><?php echo date("Y M d", strtotime($news->date))?></span></p>
+	                  <p class="date"><span><?php echo Util::dateFormat(strtotime($news->date))?></span></p>
 	                  <script type="text/tpl">
                     	<?php if ($news): ?>
 				          	<div class="picinfortxt news-picinfortxt">
 				          		<div class="picinfortxt-inner">
 						            <h2><?php echo $news->title?></h2>
-						            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+						            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 						            <div class="body">
 						              <?php echo $news->body?>
 						            </div>
@@ -104,7 +104,7 @@ include_once 'common/header.php';?>
 									<a href="#" data-a="show-pop" class="btn transition-wrap"><span class="transition"><?php echo Yii::t("strings", "read more")?><br><br><?php echo Yii::t("strings", "read more")?></span></a>
 									<textarea style="display:none;">
 										<h2><?php echo $news->title?></h2>
-							            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+							            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 							            <div class="body">
 							              <?php echo $news->body?>
 							            </div>

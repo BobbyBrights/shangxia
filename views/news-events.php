@@ -74,13 +74,13 @@
 	                <a href="#" data-a="show-news" class="prolistitem newsitem" data-id="<?php echo $news->cid?>">
 	                  <img src="<?php echo $news->thumbnail?>" width="100%" />
                     <p><?php echo $news->title?><br /></p>
-                    <p class="date"><span class="date"><?php echo date("Y M d", strtotime($news->date))?></span></p>
+                    <p class="date"><span class="date"><?php echo Util::dateFormat(strtotime($news->date))?></span></p>
 	                  <script type="text/tpl">
                     	<?php if ($news): ?>
 				          	<div class="picinfortxt news-picinfortxt">
 				          		<div class="picinfortxt-inner">
 						            <h2><?php echo $news->title?></h2>
-						            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+						            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 						            <div class="body">
 						              <?php echo $news->body?>
 						            </div>
@@ -89,7 +89,7 @@
 									<a href="#" data-a="show-pop" class="btn transition-wrap"><span class="transition"><?php echo Yii::t("strings", "read more")?><br><br><?php echo Yii::t("strings", "read more")?></span></a>
 									<textarea style="display:none;">
 										<h2><?php echo $news->title?></h2>
-							            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+							            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 							            <div class="body">
 							              <?php echo $news->body?>
 							            </div>
@@ -133,7 +133,7 @@
 					<h2 class="intoview-effect" data-effect="fadeup"><?php echo Yii::t("strings", "about shangxia")?></h2>
 					<p class="intoview-effect" data-effect="fadeup"><?php echo Yii::t("strings" ,"about_shangxia_desc")?></p>
 	 				<a data-a="nav-link" class="btn transition-wrap" href="<?php echo url("about") ?>"><span class="transition"><?php echo Yii::t("strings", "read more")?><br><br><?php echo Yii::t("strings", "read more")?></a>
-				
+
               </div>
 			</div>
 		</div>

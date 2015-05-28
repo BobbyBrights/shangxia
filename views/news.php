@@ -1,4 +1,4 @@
-<?php 
+<?php
 $pagename = 'news';
 include_once 'common/header.php';?>
 		<!-- detail -->
@@ -14,13 +14,13 @@ include_once 'common/header.php';?>
 		<!-- related products -->
 		<div class="section intoview-effect" data-effect="fadeup">
 			<div class="picinfor cs-clear">
-				
+
           <?php $news = loadFirstNews();?>
           <?php if ($news): ?>
 	          	<div class="picinfortxt news-picinfortxt">
 	          		<div class="picinfortxt-inner">
 			            <h2><?php echo $news->title?></h2>
-			            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+			            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 			            <div class="body">
 			              <?php echo $news->body?>
 			            </div>
@@ -74,13 +74,13 @@ include_once 'common/header.php';?>
                   <a href="#" class="prolistitem newsitem" data-a="show-news">
                     <img src="<?php echo $news->thumbnail?>" width="100%" />
                     <p><?php echo $news->title?><br /></p>
-                    <p class="date"><span class="date"><?php echo date("Y M d", strtotime($news->date))?></span></p>
+                    <p class="date"><span class="date"><?php echo Util::dateFormat(strtotime($news->date))?></span></p>
                     <script type="text/tpl">
                     	<?php if ($news): ?>
 				          	<div class="picinfortxt news-picinfortxt">
 				          		<div class="picinfortxt-inner">
 						            <h2><?php echo $news->title?></h2>
-						            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+						            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 						            <div class="body">
 						              <?php echo $news->body?>
 						            </div>
@@ -89,7 +89,7 @@ include_once 'common/header.php';?>
 									<a href="#" data-a="show-pop" class="btn transition-wrap"><span class="transition"><?php echo Yii::t("strings", "read more")?><br><br><?php echo Yii::t("strings", "read more")?></span></a>
 									<textarea style="display:none;">
 										<h2><?php echo $news->title?></h2>
-							            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+							            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
 							            <div class="body">
 							              <?php echo $news->body?>
 							            </div>

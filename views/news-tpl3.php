@@ -4,7 +4,7 @@
 <div class="picinfor cs-clear">
     <div class="picinfortxt3">
             <h2><?php echo $news->title?></h2>
-            <h3 style="text-transform:uppercase;"><?php echo date("Y M d", strtotime($news->date))?></h3>
+            <h3 style="text-transform:uppercase;"><?php echo Util::dateFormat(strtotime($news->date))?></h3>
             <div class="body">
                 <?php echo $news->body?>
             </div>
