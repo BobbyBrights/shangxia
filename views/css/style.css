@@ -240,7 +240,7 @@ img.slideitem{height: auto;}
 .detail .arrows4.detailnext{background-position: right 60%}
 .detailprev{background: url('../images/detailprev.png') no-repeat left center;}
 .detailnext{background: url('../images/detailnext.png') no-repeat right center;}
-.detailW6{width: 78%;margin: 0 auto}
+.detailW6{width: 78%;margin: 0 auto; font-size:18px;}
 
 
 /*barbg*/
