@@ -447,6 +447,7 @@ body.lang-en_us .knowhow-weaving .knowhowitem-4 .knowhowintro a {margin-top: 30p
 .popaboutbtn{color:#4b3700; font-size: 18px;text-align: center;display: block;height: 62px;width: 250px;line-height: 62px;border: #000 solid 1px;margin: 30px 0;}
 .popshare{margin-left: -20px;}
 .popshare a{float: left;width: 32px;height: 32px;margin:0 10px;background: url('../images/shareicon.png') no-repeat 9px 3px;}
+.popshare .popsharefb{background-position: 10px 3px;}
 .popshare .popsharet{background-position: -41px 3px;}
 .popshare .popsharein{background-position: -91px 3px;}
 .popshare .popsharewb{background-position: -142px 3px;}

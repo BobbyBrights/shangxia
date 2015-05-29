@@ -93,13 +93,42 @@
 					</div>
 					<div class="sitelinkitem sitelinkitemXS intoview-effect" data-effect="fadeup">
 						<h2><?php echo Yii::t("strings", "CONTACT")?></h2>
-						<a href="#" data-a="show-pop" data-d="qr=1" class="ft_wx">&nbsp;</a>
-                        <textarea style="display:none;">
-                            <div class="popup_qr"><img src="/images/qr.jpg" /></div>
-                        </textarea>
-						<a href="http://www.weibo.com/shangxia" target="_blank" class="ft_wb">&nbsp;</a>
-						<br>
-						<a href="#" style="width: auto;line-height: 1em;height: auto;margin-top: 48px;" data-a="newsletter"><?php echo Yii::t("strings", "subscribe to shang xia newsletter")?></a>
+
+                        <?php if(Yii::app()->language == "zh_cn"): ?>
+                        <a href="#" data-a="show-pop" data-d="qr=1" class="ft_wx">&nbsp;</a>
+                            <textarea style="display:none;">
+                                <div class="popup_qr"><img src="/images/qr.jpg" /></div>
+                            </textarea>
+                        <a href="http://www.weibo.com/shangxia" target="_blank" class="ft_wb">&nbsp;</a>
+                        <br>
+                        <a href="#" style="width: auto;line-height: 1em;height: auto;margin-top: 48px;" data-a="newsletter"><?php echo Yii::t("strings", "subscribe to shang xia newsletter")?></a>
+                        <?php endif; ?>
+
+                        <?php if(Yii::app()->language == "fr" || Yii::app()->language == "en_us"): ?>
+                            <div class="popshare">
+                                <a href="https://www.facebook.com/ShangXiaParis?ref=br_rs" target="_blank" class="popsharefb">&nbsp;</a>
+                            </div>
+
+                            <textarea style="display:none;">
+                                <div class="popup_qr"><img src="/images/qr.jpg" /></div>
+                            </textarea>
+
+                            <div class="popshare">
+                                <a href="https://www.linkedin.com/company/shang-xia?trk=vsrp_companies_cluster_name&trkInfo=VSRPsearchId%3A895426791432718871553%2CVSRPtargetId%3A1148135%2CVSRPcmpt%3Acompanies_cluster" target="_blank" class="popsharein">&nbsp;</a>
+                            </div>
+
+                            <textarea style="display:none;">
+                                <div class="popup_qr"><img src="/images/qr.jpg" /></div>
+                            </textarea>
+
+                            <div class="popshare">
+                                <a href="https://twitter.com/ShangXia" target="_blank" class="popsharet">&nbsp;</a>
+                            </div>
+
+                            <br>
+                            <a href="#" style="width: auto;line-height: 1em;height: auto;margin-top: 48px;" data-a="newsletter"><?php echo Yii::t("strings", "subscribe to shang xia newsletter")?></a>
+                        <?php endif; ?>
+
 					</div>
 				</div>
 				<!-- copyright -->
