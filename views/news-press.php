@@ -22,7 +22,7 @@ include_once 'common/header.php';?>
 					<div class="newsoldertime intoview-effect" data-effect="fadeup">
 						<ul class="slidetab">
             <?php foreach ($years as $index =>  $year): ?>
-              <li data-year="<?php echo $year["year"]?>" class="<?php if ($index == count($years)-1) echo "on"?>"><?php echo $year["year"]?></li>
+              <li data-year="<?php echo $year["year"]?>" class="<?php if ($index == 0) echo "on"?>"><?php echo $year["year"]?></li>
             <?php endforeach;?>
             			</ul>
 					</div>
