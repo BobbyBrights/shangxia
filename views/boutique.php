@@ -83,7 +83,9 @@ include_once 'common/header.php';?>
 						<?php echo $crtboutique->address?>
 					</div>
 					<div class="storemap intoview-effect" style="height:390px;" <?php if ($_GET["type"] == "paris") echo 'data-map-type="google"'?> data-map="<?php echo $crtboutique->latlng?>" data-effect="fadeup">
-						<img src="/images/findus.jpg" width="100%" />
+                        <a href="https://www.google.com.hk/maps/place/SHANG+XIA/@48.852058,2.32882,17z/data=!4m6!1m3!3m2!1s0x47e671d6c8e54a25:0x1d86b6f5059ed48e!2sSHANG+XIA!3m1!1s0x47e671d6c8e54a25:0x1d86b6f5059ed48e?hl=en" target="_blank">
+                            <img src="/images/findus.jpg" width="100%" />
+                        </a>
 					</div>
 				</div>
 			</div>

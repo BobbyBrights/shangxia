@@ -45,8 +45,14 @@
 					</ul>
 				</div>
 				<div class="storemap intoview-effect" data-effect="fadeup" style="height:400px;position:relative;">
-					<div class="storemap-wrap" id="map" data-map-type="<?php echo $map;?>" data-map="<?php echo $store->latlng?>" >
+
+					<div class="storemap-wrap" id="map" data-map-type="<?php echo $map;?>" data-map="<?php echo $store->latlng?>" <?php if(Yii::app()->language == "fr"){echo "style='display: none'";}?>>
 					</div>
+
+                    <a href="https://www.google.com.hk/maps/place/SHANG+XIA/@48.852058,2.32882,17z/data=!4m6!1m3!3m2!1s0x47e671d6c8e54a25:0x1d86b6f5059ed48e!2sSHANG+XIA!3m1!1s0x47e671d6c8e54a25:0x1d86b6f5059ed48e?hl=en" target="_blank" <?php if(Yii::app()->language != "fr"){echo "style='display: none'";}?>>
+                        <img src="/images/findus.jpg" width="100%" />
+                    </a>
+
 	      <?php endif;?>
 				</div>
 			</div>
